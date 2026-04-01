@@ -47,6 +47,9 @@ jobs:
           if (-not (Test-Path "packwiz-installer-bootstrap.jar")) {
             throw "packwiz-installer-bootstrap.jar fehlt im Repository."
           }
+          if (-not (Test-Path "packwiz-installer.jar")) {
+            throw "packwiz-installer.jar fehlt im Repository."
+          }
           if (-not (Test-Path "Residenz-Life-${{ steps.packmeta.outputs.version }}-curseforge.zip")) {
             throw "CurseForge-Export fehlt."
           }
@@ -65,10 +68,12 @@ jobs:
             Automatisches Release von main.
             Enthalten:
             - packwiz-installer-bootstrap.jar
+            - packwiz-installer.jar
             - Residenz-Life-${{ steps.packmeta.outputs.version }}-curseforge.zip
             - Residenz-Life-${{ steps.packmeta.outputs.version }}.mrpack
           files: |
             packwiz-installer-bootstrap.jar
+            packwiz-installer.jar
             Residenz-Life-${{ steps.packmeta.outputs.version }}-curseforge.zip
             Residenz-Life-${{ steps.packmeta.outputs.version }}.mrpack
 
@@ -83,9 +88,11 @@ jobs:
             Versions-Release aus pack.toml.
             Enthalten:
             - packwiz-installer-bootstrap.jar
+            - packwiz-installer.jar
             - Residenz-Life-${{ steps.packmeta.outputs.version }}-curseforge.zip
             - Residenz-Life-${{ steps.packmeta.outputs.version }}.mrpack
           files: |
             packwiz-installer-bootstrap.jar
+            packwiz-installer.jar
             Residenz-Life-${{ steps.packmeta.outputs.version }}-curseforge.zip
             Residenz-Life-${{ steps.packmeta.outputs.version }}.mrpack

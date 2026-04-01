@@ -7,6 +7,7 @@ Residenz-Life nutzt `packwiz` mit Auto-Update vor dem Spielstart.
 Im GitHub-Release `latest` findest du:
 
 - `packwiz-installer-bootstrap.jar` (empfohlen für Auto-Update)
+- `packwiz-installer.jar` (Fallback bei HTTP-403 beim Bootstrap-Download)
 - `Residenz-Life-<VERSION>-curseforge.zip` (CurseForge-Export)
 - `Residenz-Life-<VERSION>.mrpack` (Modrinth-Export)
 
@@ -67,5 +68,6 @@ Für automatische Updates ist Prism/MultiMC oder Modrinth App klar besser geeign
 
 - **Java nicht gefunden**: Prüfe `java -version` in der Konsole.
 - **Datei fehlt**: Prüfe, ob `packwiz-installer-bootstrap.jar` im Instanzordner liegt.
+- **HTTP 403 beim Bootstrap-Download**: Lade `packwiz-installer.jar` manuell aus dem Release herunter und lege ihn in denselben Ordner wie `packwiz-installer-bootstrap.jar`.
 - **Update schlägt fehl**: URL testen, Firewall/Proxy prüfen.
 - **Schreibrechte fehlen**: Launcher normal starten und Rechte im Instanzordner prüfen.
