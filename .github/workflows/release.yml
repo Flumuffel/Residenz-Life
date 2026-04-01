@@ -21,9 +21,21 @@ jobs:
           distribution: temurin
           java-version: "21"
 
-      - name: Refresh packwiz index
+      # Kein packwiz refresh hier: CI kann Hash/Zeilenenden anders berechnen als lokal → „index file hash is invalid“ beim Installer.
+      # Stattdessen muss nach Änderungen lokal `packwiz refresh` laufen; index.toml + pack.toml committen.
+      - name: Verify index hash matches pack.toml
         shell: pwsh
-        run: .\packwiz.exe refresh
+        run: |
+          $packRaw = Get-Content -Path pack.toml -Raw
+          if ($packRaw -notmatch '(?m)^hash\s*=\s*"([a-fA-F0-9]+)"') {
+            throw "Konnte den index-Hash in pack.toml nicht finden."
+          }
+          $expected = $Matches[1].ToLowerInvariant()
+          $actual = (Get-FileHash -Path index.toml -Algorithm SHA256).Hash.ToLowerInvariant()
+          if ($actual -ne $expected) {
+            Write-Host "::error::index.toml passt nicht zu pack.toml: erwartet Hash $expected, ist $actual. Lokal: packwiz refresh, dann index.toml und pack.toml committen."
+            exit 1
+          }
 
       - name: Read pack version
         id: packmeta
