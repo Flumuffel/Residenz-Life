@@ -1,6 +1,14 @@
 hash-format = "sha256"
 
 [[files]]
+file = ".github/workflows/release.yml"
+hash = "965eedb4196e046dc983f5b6ea9b5c7706f1bdd1e939c06a0553bc234d9c3eea"
+
+[[files]]
+file = "README.md"
+hash = "933749a4250d2095d41f6c8652066a003b92111adcfaed6b073b1cb3677f60b2"
+
+[[files]]
 file = "config/MouseTweaks.cfg"
 hash = "4069ce1a439d8c37453c1b1e9f2037e0942674c7e48723a39b37eab245792ad4"
 
@@ -615,6 +623,10 @@ hash = "121b93764159be6fb7dab523b29a844e2bb78400ce8c48f52135a097e9b0006e"
 [[files]]
 file = "config/zoomify.json"
 hash = "60a78fe1b271ce9b53e295235eb5a7cdb3a8692ca583fdaa7f5bc09f9049e2f4"
+
+[[files]]
+file = "icon.png"
+hash = "802b31301691a0dec165c5b6bf87ba207e1e67331dc65e65c9bcc7a5c292dc20"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"

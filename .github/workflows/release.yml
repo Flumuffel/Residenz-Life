@@ -25,17 +25,15 @@ jobs:
         shell: pwsh
         run: .\packwiz.exe refresh
 
-      - name: Build Prism installer zip
+      - name: Ensure release assets exist
         shell: pwsh
         run: |
-          if (Test-Path "Residenz-Life-Installer.zip") {
-            Remove-Item "Residenz-Life-Installer.zip" -Force
+          if (-not (Test-Path "packwiz-installer-bootstrap.jar")) {
+            throw "packwiz-installer-bootstrap.jar fehlt im Repository."
           }
-          Compress-Archive -Path @(
-            "packwiz-installer-bootstrap.jar",
-            "instance.cfg",
-            "mmc-pack.json"
-          ) -DestinationPath "Residenz-Life-Installer.zip" -Force
+          if (-not (Test-Path "launcher-commands.txt")) {
+            throw "launcher-commands.txt fehlt im Repository."
+          }
 
       - name: Publish latest release
         uses: softprops/action-gh-release@v2
@@ -44,4 +42,6 @@ jobs:
           name: Residenz-Life latest
           make_latest: true
           overwrite_files: true
-          files: Residenz-Life-Installer.zip
+          files: |
+            packwiz-installer-bootstrap.jar
+            launcher-commands.txt

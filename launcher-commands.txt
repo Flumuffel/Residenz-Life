@@ -1,0 +1,7 @@
+Residenz-Life packwiz bootstrap command
+======================================
+
+Main command (all launchers):
+java -jar packwiz-installer-bootstrap.jar https://raw.githubusercontent.com/Flumuffel/Residenz-Life/main/pack.toml
+
+Use this command as pre-launch/custom command so updates run before each game start.
