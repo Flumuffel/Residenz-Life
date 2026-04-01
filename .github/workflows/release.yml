@@ -57,32 +57,12 @@ jobs:
             throw "Modrinth-Export fehlt."
           }
 
-      - name: Publish latest release
-        uses: softprops/action-gh-release@v2
-        with:
-          tag_name: latest
-          name: Residenz-Life v${{ steps.packmeta.outputs.version }} (latest)
-          make_latest: true
-          overwrite_files: true
-          body: |
-            Automatisches Release von main.
-            Enthalten:
-            - packwiz-installer-bootstrap.jar
-            - packwiz-installer.jar
-            - Residenz-Life-${{ steps.packmeta.outputs.version }}-curseforge.zip
-            - Residenz-Life-${{ steps.packmeta.outputs.version }}.mrpack
-          files: |
-            packwiz-installer-bootstrap.jar
-            packwiz-installer.jar
-            Residenz-Life-${{ steps.packmeta.outputs.version }}-curseforge.zip
-            Residenz-Life-${{ steps.packmeta.outputs.version }}.mrpack
-
       - name: Publish versioned release
         uses: softprops/action-gh-release@v2
         with:
           tag_name: v${{ steps.packmeta.outputs.version }}
           name: Residenz-Life v${{ steps.packmeta.outputs.version }}
-          make_latest: false
+          make_latest: true
           overwrite_files: true
           body: |
             Versions-Release aus pack.toml.
