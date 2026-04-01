@@ -1,0 +1,8 @@
+.github
+.git
+.packwizignore
+packwiz.exe
+README.md
+launcher-commands.txt
+*.zip
+*.mrpack

@@ -1,14 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = ".github/workflows/release.yml"
-hash = "eafd165744024e9f9dfa7651d0dda9f9e0cfec5f8da3ea5d8bc1575b4275a5e1"
-
-[[files]]
-file = "README.md"
-hash = "fa86ec323e7d45933ae6f2e70c023379d2a864da43ab3b94efaf49a7ac2d3199"
-
-[[files]]
 file = "config/MouseTweaks.cfg"
 hash = "4069ce1a439d8c37453c1b1e9f2037e0942674c7e48723a39b37eab245792ad4"
 
@@ -629,10 +621,6 @@ file = "icon.png"
 hash = "802b31301691a0dec165c5b6bf87ba207e1e67331dc65e65c9bcc7a5c292dc20"
 
 [[files]]
-file = "launcher-commands.txt"
-hash = "2e23fe037432ef52a2a1785a0b5113e8be873af67be63258bc3942f15c20d30d"
-
-[[files]]
 file = "mods/3dskinlayers.pw.toml"
 hash = "27d120cecb99b1dc056f5f2636d144941828f124637cb84667a0d0152d7f3f02"
 metafile = true
@@ -1178,36 +1166,8 @@ file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM-1/dimension_config.
 hash = "0d16eb48a98d577d7ec9652d988a3be2d0c7d44e5dbf537b7f87c251a82958bb"
 
 [[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM-1/mw$default/-1_-1.zip"
-hash = "e64d4773a2f9c85d2cc2dbdd3fec97ee499a555332a9ee771def8e910e8da95d"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM-1/mw$default/-1_0.zip"
-hash = "3e7d3255d72ec77489f90e492dc8a51800d27856bb1ac5b0a299c16f4ba58a0a"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM-1/mw$default/-1_1.zip"
-hash = "c5732491bd01f650eb9a4ad783305f0c5a6906c58c7cc3e82735e3c0f3c0b80e"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM-1/mw$default/-2_-1.zip"
-hash = "e9a08c33ed360771d0d9bbed9cff50af105927e941a0fb74e6c4fa6f26c630b6"
-
-[[files]]
 file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM-1/mw$default/.lock"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM-1/mw$default/0_-1.zip"
-hash = "75207a133cba6966dac936576ff4276ffd11b3e34804221baf443a65ae4da64e"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM-1/mw$default/0_0.zip"
-hash = "ad019eddc048d5f0ce78d990fa6431024271a2e2914ae711337bed46b02d58b6"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM-1/mw$default/0_1.zip"
-hash = "dd407440db37318132e08e0dd288f43151572946ccec87609ae53ed0822a03a1"
 
 [[files]]
 file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM-1/mw$default/cache_1/-1_-1.xwmc"
@@ -1238,30 +1198,6 @@ file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM-1/mw$default/cache_
 hash = "fccacc3298519e66b1c044d2ac8325d7b6608abc75ce3374a67c21f65a302e6d"
 
 [[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM-1/mw$default/caves/2/0_0.zip"
-hash = "02497184b7f4145d7327b46c04295d66120f915b339cef6fc4413aa74f88826a"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM-1/mw$default/caves/2/0_1.zip"
-hash = "71051e32f460a89f24292d56ddc5da9af7900a51510fce3dc338a1c6a380a97f"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM-1/mw$default/caves/2/1_0.zip"
-hash = "253805baca8668a1fe9c00aeafa91d1f3d92b8ea910f8a50f00026cbabe4afec"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM-1/mw$default/caves/2/1_1.zip"
-hash = "f9345103bc8446252f360ec3a7d7fb4d8f360733e93d626a51ef89ee4545aeb4"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM-1/mw$default/caves/2/1_2.zip"
-hash = "541538267a746e8704d39520cd6163a19447825dbb1ba25f67a07fe6ccc3ae20"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM-1/mw$default/caves/2/2_2.zip"
-hash = "96c9a1f2fede3b0c2986d13cee72c0e668761ac831e5fc37483d0c2e7af477cf"
-
-[[files]]
 file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM-1/mw$default/caves/2/cache_1/0_0.xwmc"
 hash = "f7beebfb80862c50d72f3a9cb2134520dc1cfb30644b0efeed5d2058c8c98272"
 
@@ -1276,46 +1212,6 @@ hash = "8b38f8ddaff5ce1fe5c249d7a0cfdeff56c7304742005c108d7776d0084fd203"
 [[files]]
 file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM-1/mw$default/caves/2/cache_1/1_1.xwmc"
 hash = "e7bd34e56bf8f85e8fdc63b62732aa347767128381fab8c791c5f80781569cc2"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM-1/mw$default/caves/3/-1_0.zip"
-hash = "2b219b0bffa294317f56a74acbff98deecd9643c90dfe339a9023aa745357013"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM-1/mw$default/caves/3/-1_1.zip"
-hash = "6e47c34caa05463b6edb9c8458eb5b79b27f8fddbfebe40a7b75dfe8a49319c2"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM-1/mw$default/caves/3/-3_-1.zip"
-hash = "ad3c26e4f927bd64feb85d89da07e07a66adcc6359fae838d12f7e3685848868"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM-1/mw$default/caves/3/-3_0.zip"
-hash = "b7f9c14d7628fb223910ea4d9466f9091d145607e088665416c339203b74138a"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM-1/mw$default/caves/3/-4_-1.zip"
-hash = "2fea45bf0b0391e327fb62296ac31010638c1fdd0574537cc3fb55d17d66a5c5"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM-1/mw$default/caves/3/-4_0.zip"
-hash = "9e65a503dd0f9c8cdbc09251fb203f4ade69c8e4906abb053a46e853cb3ad71f"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM-1/mw$default/caves/3/0_0.zip"
-hash = "4c5f6fc33e1c271416f469db64f2fda5dfdf5bec095fca3ab66aff3345ebf550"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM-1/mw$default/caves/3/0_1.zip"
-hash = "f13717618b9b408843daec57be20e0d0f80845382a67e7844f359368c3758200"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM-1/mw$default/caves/3/1_0.zip"
-hash = "78d794b633655d18f0415c5f5e423601acfafa8cffcbcbc660890230dc6b3571"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM-1/mw$default/caves/3/1_1.zip"
-hash = "df6a598744f39bea0a8dc880c5431c4480dd007fc67f81ebd1ff453daded308c"
 
 [[files]]
 file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM-1/mw$default/caves/3/cache_1/-1_0.xwmc"
@@ -1356,70 +1252,6 @@ hash = "2bc09dfc95eb1524f16eb4bd86b79f2f3de478823f171d6e9e563284d6d93b66"
 [[files]]
 file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM-1/mw$default/caves/3/cache_1/1_1.xwmc"
 hash = "f6b392c316cb28931a7a8afe3deec85e1277a3595389cdcf5344f1076cdd8fa2"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM-1/mw$default/caves/4/-1_-1.zip"
-hash = "b68468bb427f6bddb4e744c0d3be14306561661d7cc0f5ed6ac4ec3489f16d46"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM-1/mw$default/caves/4/-1_0.zip"
-hash = "1c627a96ab4df0ad8b3000afce3d7e799b17c621fa4023fe4016f6aa25196d61"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM-1/mw$default/caves/4/-1_1.zip"
-hash = "2c90eed0f18da1cfa7db73a22ee83f07cf61f72ae9be4ede7308c893c9fe6bff"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM-1/mw$default/caves/4/-2_-1.zip"
-hash = "8e6fabd8a0cdfd47fdb5388651bc1b8612368b9451579556b8e2817fe81f6697"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM-1/mw$default/caves/4/-2_0.zip"
-hash = "34fb502826adc9a734f78d9051afc56206d906fe6898ded3ccf343d33c151f99"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM-1/mw$default/caves/4/-3_-1.zip"
-hash = "e3da7f249200953a8880db13dc0c878c296af98d8bdd59e60bf83ac0b88ae989"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM-1/mw$default/caves/4/-3_0.zip"
-hash = "09b83c4b90d0b99e343df1860749608783e5fb8107dc8dad43c0983015e2956a"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM-1/mw$default/caves/4/-4_-1.zip"
-hash = "b94ec95a18dd56b122aa76286122544dfabd88e17c7e5dd3460e4f970f63fb93"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM-1/mw$default/caves/4/-4_0.zip"
-hash = "60d419b79bb27699ad7ba6580a2b368ce944c5202bf820dfccd69e432acd67fd"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM-1/mw$default/caves/4/0_-1.zip"
-hash = "6ce33d6c88001bac58c398056ae94a65b3a8ebe798e901d5444b2cace89144c6"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM-1/mw$default/caves/4/0_0.zip"
-hash = "8390ef4f7ab1dbcb00ca4bb8b887f3443951f6fd82b0690aba8ffb86997ffad4"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM-1/mw$default/caves/4/0_1.zip"
-hash = "745054c571da3f94caff67a46724781184096bb53924300b8b3b23731615bff2"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM-1/mw$default/caves/4/1_0.zip"
-hash = "99ec4faf64b30d59fb7b86b16d659fed9ce85c0553169d6da1d73791f2e4ab6b"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM-1/mw$default/caves/4/1_1.zip"
-hash = "8202341d407a0c9615bd4fd936aac25d701a855c8975936f7e5c8de7819be098"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM-1/mw$default/caves/4/2_0.zip"
-hash = "8455d11abd191d7a0c2e6f3ef8d593973e80ce972248075f3e109259877debf0"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM-1/mw$default/caves/4/2_1.zip"
-hash = "f6fffa76481141dcf2284fae4ba58185375480935c74bc576c76cacec0e41053"
 
 [[files]]
 file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM-1/mw$default/caves/4/cache_1/-1_0.xwmc.outdated"
@@ -1478,46 +1310,6 @@ file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM-1/mw$default/caves/
 hash = "78a667529c11cf380e457d3d956d7fbf9b70a2bd5b63b7b562b2923e45f94214"
 
 [[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM-1/mw$default/caves/5/-1_-1.zip"
-hash = "dad08f8ed340a4c4154cb9d278e20429340b2e45ca39179f855469e78421ac2a"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM-1/mw$default/caves/5/-1_0.zip"
-hash = "4f0b85334eea9cc838c9beba9e9dd319dba1fd4cff15417602b4b828cb30981d"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM-1/mw$default/caves/5/-1_1.zip"
-hash = "40f79bef83041573b3b9275355260152fa8116e5a3a8d73edddab0e5b383411c"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM-1/mw$default/caves/5/-2_-1.zip"
-hash = "507e5e180989f63bff1f34401de4ec379c32ac98f2608572f4742cd7a1d765a8"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM-1/mw$default/caves/5/-2_0.zip"
-hash = "afa3d48a61dced885af17f68420abd569bbf029a9f153c40f36ecedae34a1be1"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM-1/mw$default/caves/5/-3_-1.zip"
-hash = "ef959e2c68fe74a737d12ae6870cb825c080ae7fc33118aeeefba48b6e8fd00b"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM-1/mw$default/caves/5/-3_0.zip"
-hash = "0a0a88f9171215955c3a0a9ad805044d34a65164a198218bbd8d6e5141d9861b"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM-1/mw$default/caves/5/0_-1.zip"
-hash = "21ca26d7a18b9290dd805a2bde345e359260c908479ade7541dda40fc4e7f706"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM-1/mw$default/caves/5/0_0.zip"
-hash = "a755c72f033e50334450ae2fc0b359861b45d4ec0d50ab303a968b60754cc6e4"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM-1/mw$default/caves/5/0_1.zip"
-hash = "67a07dc399cb87efd0e2b54bd16574958b4758f0e27878d1b27b77bc9662a09f"
-
-[[files]]
 file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM-1/mw$default/caves/5/cache_1/-1_-1.xwmc"
 hash = "a755c65a14d9cb2bc0fb0cf5b234451a0d6609c17fe04c1dfa121d41c211ca0b"
 
@@ -1554,22 +1346,6 @@ file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM-1/mw$default/caves/
 hash = "61dd9e1ad922c143e9c106b7bc881baee76b0980669ec4ba92b6fd762e323ab7"
 
 [[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM-1/mw$default/caves/6/-1_-1.zip"
-hash = "c3c0feb01688c36413f085307c7bf2478b3abca9c6b367cda8a8620d418473ec"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM-1/mw$default/caves/6/-2_-1.zip"
-hash = "d5a0888491edd6b326d39f33838fb1bec71bf48bddc17ea3ae870d49fbadf370"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM-1/mw$default/caves/6/-3_-1.zip"
-hash = "e310edaec2c52dca97b2987b9c984c677de996457e83b02f1a5c7f4d292385cd"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM-1/mw$default/caves/6/-3_0.zip"
-hash = "61c8c610073ccd9fb2c69be4ab0c2f354bb57693a8f4b309c45ebd55b6fa7b7a"
-
-[[files]]
 file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM-1/mw$default/caves/6/cache_1/-1_-1.xwmc"
 hash = "3847e5b371a57a1c5f8eb31d285bd332f8f27b9d8f96076bde5053081879e745"
 
@@ -1590,140 +1366,8 @@ file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/dimension_config.t
 hash = "553c3284d8377269d66951b246685c190da811af026811f5836666e84582c870"
 
 [[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/-1_-1.zip"
-hash = "6cf1d4abbc5c5c16ce8703cf95b4cab5ff3eeba0d8067c91f578d3b7b4fe6cce"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/-1_-2.zip"
-hash = "69bd0ccc1fa8f2c55b40782f3d796e7a0c83ca635720b7d6325c7bcb422b7e3d"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/-1_-3.zip"
-hash = "09b33fb410822f9361628389108f92d474454e6f62ad4869f09877466413bf95"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/-1_0.zip"
-hash = "f3aedfb098393a2221da47deeb9241effd4625a1c62b81881344b6cbe91cff1f"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/-2_-2.zip"
-hash = "11c76e02a30f4f8f768de0c03983e4c97c2334333057f49e8e1e16d628259bfa"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/-2_-3.zip"
-hash = "9826a223e1035e9e481a955c0e0f96623e511f28afeade48673d2cae19aebf17"
-
-[[files]]
 file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/.lock"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/0_-1.zip"
-hash = "f842d02ea1e4d1cc440108e271dd4fad0634bd24ef3143be085d85a4b8e0d0fe"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/0_-3.zip"
-hash = "67d88d7c64252a1e7aecba7fb066b302887edc2a7be09b3b89f423915aafe984"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/0_-4.zip"
-hash = "a23b9255231e604104fe66cf87ffbb23b3e24834b2c1bd5bab2f73fb35dc36f1"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/0_0.zip"
-hash = "7c44fe1fb45fb8ff1b0b620091bf622a40d58959e804fdd88fbd611c086cf982"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/1_-1.zip"
-hash = "29ed1d1fbaf7ce55f35b874b15404738f84681065cf6971ed94102e0ed652b5e"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/1_-3.zip"
-hash = "2c477c245c10bce1b7a1ea6bc1487284ccdc01d50306da4f2507d99f83bd4d38"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/1_-4.zip"
-hash = "b3126985a4232f1564e66f044c582877c4765d0ba07493794580e29a1a23a168"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/1_0.zip"
-hash = "a92f0ee6c0577b70dc40cd045549ded4c92eae961a586e46fe2b391f32ce47d1"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/2_-1.zip"
-hash = "3823a7c64b478ff6b040d8c677d1c1ef00c12393f124a49cb4d2ad6c0a0a4923"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/2_-2.zip"
-hash = "0cb1e7a4abb6dae0f9844f8341845099ac147ba5e0cd78508766db57dccebf20"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/2_-3.zip"
-hash = "480b4a32a9c1b4cb1ba62b209a875ef3e2aee3b021b43e5d5bcedaea13dcde5b"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/2_0.zip"
-hash = "b3ccaeb980b9b01e45ff179a9bfdeaa4efdaa6ae017f3bb10beb3355b9d992bb"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/2_1.zip"
-hash = "7db3809243d9da72ad559632ea2771782111ab16ddfe163941d596e089ad494d"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/3_-1.zip"
-hash = "b50ab3cdd8453b5dacb1dded9750c4379906f5acdf67119fb1f1bee75f2133e2"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/3_-2.zip"
-hash = "96d0f1136fee7e881bc94b163a79d3afe9a05c080cb9abe46cf6670d454d743e"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/3_-3.zip"
-hash = "495b14ff143ce962cbc9dbc8114ff3598cd6ddcff059a67bc2ed46ad0e0ff55c"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/3_-4.zip"
-hash = "e9ec5baa8877c1d19dec845883a3420e0f1de559ec94193c5410cedcab307215"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/3_-5.zip"
-hash = "88bd0a67f58261c62974f9b65c335521abc935462419ce99769f3ae1e6ca4901"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/3_0.zip"
-hash = "0f7b49c10f7522489e1fbd3c52ffa1b1eddc0ce30ccac0c885fbac84ec6f588c"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/3_1.zip"
-hash = "ed819f396adceb1f6bc7788ef9a7223874d46e2b2e60e53dd602b9b480a28ff7"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/4_-3.zip"
-hash = "67e9090f1c2b70e204d70f6013e7c30a088472af55fc2e28a9d2e4d0ef5efba5"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/4_-4.zip"
-hash = "f455d8d3a7d23d6bf5932ad55f414d6aac44e3149924cec322e3c60a109f7952"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/4_-5.zip"
-hash = "dd38b39b978880dbc10c8fb417ed6d621223e8fa94d03470d7c51f26b8f0936d"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/4_-6.zip"
-hash = "df46da842293753bbe3cfe8cedc0276ff62eb0e343abacab34a7cf76330a0a3c"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/5_-4.zip"
-hash = "8c47d602e67e9829181c297c3da10ab7f52391ed5af98f6488e6f2ee6076a84d"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/5_-5.zip"
-hash = "95fe875c49f99ba288f9e2d23b2997898ebbbfb203bda77af195e71554c69945"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/5_-6.zip"
-hash = "c6c44a0e5804a3bf90cba3b28c4318e1d3bfbf0412c372787da032dd294fa863"
 
 [[files]]
 file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/cache/1/-1_-1.xwmc"
@@ -1946,22 +1590,6 @@ file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/cache_1
 hash = "85260a1d777a5589767d75e18b29dcb2a4d28603d3bb27e227cd015eebb65b42"
 
 [[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/caves/10/4_-5.zip"
-hash = "3b78392db93d97044599d9f2baad70f93300973ebd0514bd46d81f91b1d07062"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/caves/10/4_-6.zip"
-hash = "aa719149b62c31f53b711c69ee0bd86ccbf40f6a390a0e06198bab1a9c852996"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/caves/10/5_-5.zip"
-hash = "69f7b87188f0f665313075c983638168623bbb0b0c60e3820b62ae9614ccea9c"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/caves/10/5_-6.zip"
-hash = "f1163f526a646dca19c47ab2f268ac0821b5be1f17552b69ee248bc339151e66"
-
-[[files]]
 file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/caves/10/cache_1/4_-5.xwmc"
 hash = "da6f26f02cc1ca9d16b47b1535634f4b453c7c52c318af3800160a004fc6d843"
 
@@ -1976,22 +1604,6 @@ hash = "718bc474af0c269b14aa4411b7059fd82fe55418628a35bf89468c7a0e902551"
 [[files]]
 file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/caves/10/cache_1/5_-6.xwmc"
 hash = "666c690f8374425d214ef2302d2b80e5ada745b48245dc8cf777bbad868fbc9e"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/caves/11/4_-5.zip"
-hash = "023745c36f23371b2f0736004e7779bd6e7b5ff87307e65a227390cdd33c282e"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/caves/11/4_-6.zip"
-hash = "56a1dc00aac0885a9d39c8076ce53d4c5c5fe08505fa45d452ad7595d180284d"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/caves/11/5_-5.zip"
-hash = "ab1209af6278316fcda68bb463d62d40827d62fab41192450b15ef8b77fe0c74"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/caves/11/5_-6.zip"
-hash = "2e5198f78cb5eb3cc6a8338c1b5e3d880501a7f4d4d8380ab7c28bc646f2432e"
 
 [[files]]
 file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/caves/11/cache_1/4_-5.xwmc"
@@ -2010,36 +1622,12 @@ file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/caves/1
 hash = "db61387d66309614b589a3fd0107970cfd15e2202bc97e4fdd675961a89db2f1"
 
 [[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/caves/3/3_-3.zip"
-hash = "87191c3c91d04b2db4017959262a522324ef509be5fe67f26d419a31f51bc1f7"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/caves/3/4_-3.zip"
-hash = "eca9a35e91556e29925a74445f4edcfeed3823498a414983b537c8e9e6689b50"
-
-[[files]]
 file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/caves/3/cache_1/3_-3.xwmc"
 hash = "428242c358171b153cae9a945a915aa703e15304ecf04da2a0f120783a11dc53"
 
 [[files]]
 file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/caves/3/cache_1/4_-3.xwmc"
 hash = "005f6310efb3963561f10a643402717e1bf888639aae6be60fce4e1e9d101aa2"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/caves/4/4_-5.zip"
-hash = "acbc00ab1b4290d9755fbfac1d2f380c1141ebc1ecb3aa45bcd81e051c792f06"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/caves/4/4_-6.zip"
-hash = "ffb72c01be9e229a1943eb9cc569df0abaa8919a83adb91e32f82d899a52beaf"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/caves/4/5_-5.zip"
-hash = "27a0904df82c0e581448b570e9569e0217f7707866f578e78e36ca3ca6f593c2"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/caves/4/5_-6.zip"
-hash = "a8da27fbd032481c198ff74596dda862c00e74c9309d760af66fa3c895cae2fb"
 
 [[files]]
 file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/caves/4/cache_1/4_-5.xwmc"
@@ -2056,22 +1644,6 @@ hash = "98330c25ae9b737b171177d7239668c2835b5987ccbf063658fe59c1400038d5"
 [[files]]
 file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/caves/4/cache_1/5_-6.xwmc"
 hash = "84fff63313de428351f55d0378ed7c80b1738f967245d033cbebe16d9209edb1"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/caves/5/4_-5.zip"
-hash = "7520fcbe7358c54c094a78d904b0b177099eca751cd0c8d2965c2efbcca9da3a"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/caves/5/4_-6.zip"
-hash = "eb7f4f177293ededf6f3ec59640c681a4d8acdf150b468c8502190068102b343"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/caves/5/5_-5.zip"
-hash = "982f582870d576980091a3e7589d80de3f09221526caafef23abd541696d7486"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/caves/5/5_-6.zip"
-hash = "bb9a7c466579a73a06b0cbc50c8b0f14e423289f69622e818dd25f09b62daba5"
 
 [[files]]
 file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/caves/5/cache/1/2_-3.xwmc"
@@ -2102,22 +1674,6 @@ file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/caves/5
 hash = "4dd6af27835d9716cdcaa8783fd81c04a2c7a5a7a9e189e3234df8f35611c359"
 
 [[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/caves/6/4_-5.zip"
-hash = "4c678f85144c17020b6833c92c77917e850f1a7a1108aac1dcc84ca120484498"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/caves/6/4_-6.zip"
-hash = "3e58ef7b03dea16b062eb372b9be8ceac5e6b796efa261868b7a4862af3316be"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/caves/6/5_-5.zip"
-hash = "77afc9c846b06aebce1deaa2318c4992d2496dd30e147039fa40e2a9578baa6e"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/caves/6/5_-6.zip"
-hash = "e30a256c98de96bdafe1d5a50709be79c77b1a8e71b1e89d79a120e392b6a19a"
-
-[[files]]
 file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/caves/6/cache_1/4_-5.xwmc"
 hash = "e345daf01c8a2fba7f53b37ea2a52a6060305c2f1e302eb71b5a60570407cdd1"
 
@@ -2132,30 +1688,6 @@ hash = "e43b9074c1041b19b860f90e0a470846003221e336876c50c64350546b999ea1"
 [[files]]
 file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/caves/6/cache_1/5_-6.xwmc"
 hash = "10ef8c71123631829f5d3ad1481ae6b45c636e92b2181eb231f3ba932725e2b8"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/caves/8/2_-1.zip"
-hash = "292059db8aa6ff625711751ece9148eb6a96feb7f2870239b1d1d926748dbf93"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/caves/8/3_-1.zip"
-hash = "4c5d7409cba920aafa63241b4f7ce2df5590d0cd6bd3388cf5425d226350426b"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/caves/8/4_-5.zip"
-hash = "7e5d18cad79ce678ee0ceabff65d0952db0d3b5d9c5191999fc642deb42febb8"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/caves/8/4_-6.zip"
-hash = "c06db04c4e1a9acecf3350d21d7cfaff7cecd38c4936367c3f9fb23d23fb03a4"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/caves/8/5_-5.zip"
-hash = "5b2a3fd3880c7e11cb7fbdf1b26d690c770b9dc674b9d59f790369aefaf7e208"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/caves/8/5_-6.zip"
-hash = "feb8bb2438b720d9c5a80213826bbe27b48d88736e1e1141631eee968ab453c6"
 
 [[files]]
 file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/caves/8/cache_1/2_-1.xwmc"
@@ -2180,38 +1712,6 @@ hash = "e9a3d0737a2750d1b71745e69d9ec82b3f506db7053ed9c331da56508e74ea6d"
 [[files]]
 file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/caves/8/cache_1/5_-6.xwmc"
 hash = "36dbfd275c334f74d7851a45be9615e835d8c22eee7b2deac2dc74f942e35fcd"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/caves/9/3_-3.zip"
-hash = "53617b7b196f62b89be46d42f9cb601ada8ee5806c8dec99a876a683f3e2742d"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/caves/9/3_-4.zip"
-hash = "17130b8e7b6a9d60ae5f7dc812c4270e3293751c32da12fc1867decdfc141f5a"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/caves/9/4_-3.zip"
-hash = "be99b9d5549e2547a5cae112f0fd92537f5a89e54d6cc9e52826f8d85ad2546a"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/caves/9/4_-4.zip"
-hash = "0ee6bf29c29fd9daf72767d06363ff89bbb81ed09c9ddc7d72fefcf577fcec0f"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/caves/9/4_-5.zip"
-hash = "56befbe6adc713dfd1c6cfb32ee528615e8f50e0f73791b705ae16900bdb2169"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/caves/9/4_-6.zip"
-hash = "13c24905d109425916c387d0e2d8f94803cec6387a7ae424ba39421a693d0ef6"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/caves/9/5_-5.zip"
-hash = "85a801415b1df1816200cbf6c080f123aec8bbcf5e9936740217285134ee2837"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/caves/9/5_-6.zip"
-hash = "e15f573d3355f2fba01492811f11cc97f110a89e454ac2df33d8a59357a18596"
 
 [[files]]
 file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/DIM1/mw$default/caves/9/cache_1/3_-3.xwmc"
@@ -2250,96 +1750,8 @@ file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/evangelium$elysium/dime
 hash = "73a7a2f4af4969dfeedc088773ed993cd93de1f04bb6891cf9cb838bec739a84"
 
 [[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/evangelium$elysium/mw$default/-1_-1.zip"
-hash = "4f01872b20738d4a4d61b9ac978dbe6ebeb8424551f5359fe594233f916caa90"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/evangelium$elysium/mw$default/-1_0.zip"
-hash = "117c324c40d5b9d7c9ad9c64ae932c719ba0a6b5f6d637d04b06669e0cf475d4"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/evangelium$elysium/mw$default/-1_1.zip"
-hash = "f05043f372d3efeb570c14ff28a811baa5811ca5f8a18c4559a47669df690101"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/evangelium$elysium/mw$default/-1_2.zip"
-hash = "5edaaf8535115e4559437eb1077b2729dbcfa3eb8fcf0369e4a98ad456bb8207"
-
-[[files]]
 file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/evangelium$elysium/mw$default/.lock"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/evangelium$elysium/mw$default/0_-1.zip"
-hash = "fa79f1707faf70d0357c09ecc1f8caf6d6c69123ec39ba4a487e3b9b16b5c40d"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/evangelium$elysium/mw$default/0_-2.zip"
-hash = "6f0b5fd02b3720f34c28d9f0ebc895a7b142f7f3b5f4e99fa6ce26aaf43640bc"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/evangelium$elysium/mw$default/0_0.zip"
-hash = "cd1c971e7dafd664f590ab388940a3bfd195fc5ed3532eab270a13b406b3d82e"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/evangelium$elysium/mw$default/0_1.zip"
-hash = "dfdee4655300633f3d6c7f3d9ede95bac3edb14c9d5ecffe1e9370b40c71796a"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/evangelium$elysium/mw$default/0_2.zip"
-hash = "3ee109dd24387789bd3b39e9108d75865b1cd44c8352c6e7129aa6bc64f8137c"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/evangelium$elysium/mw$default/0_3.zip"
-hash = "0d62b123156f19c41a82641d66ad3e667fee3ae60ee32da1a0d8458d9066039a"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/evangelium$elysium/mw$default/0_7.zip"
-hash = "b626cbd972a182c9bcaea7b5c5ba8372fedd782c1c02287a6f8affafd754c33f"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/evangelium$elysium/mw$default/0_8.zip"
-hash = "0b6c37de1088ee83b8199303bb51b08dd906c2efbde63507c4515da80bbf3d6b"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/evangelium$elysium/mw$default/1_-1.zip"
-hash = "2209fc5d12d0398b731f1d2ad55865ef34a13e2073adccfd8c84c88d543da246"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/evangelium$elysium/mw$default/1_-2.zip"
-hash = "38e4a1ef4ea82c515ba3a2014647d63445c60e6543de39fdb18a41f13eb80bd7"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/evangelium$elysium/mw$default/1_1.zip"
-hash = "c233bc1bc50ffac984e9915b5028762be90624dbc729ada6b67a912a85bddd73"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/evangelium$elysium/mw$default/1_2.zip"
-hash = "63996b0d3b2dc77380973e2e3c2cc487d2aeace7e62a8e33e662b5ce4f49ec7e"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/evangelium$elysium/mw$default/1_3.zip"
-hash = "8a0755963b32c4ed294b1f57ac68b330fff15e667fec8b4152fdbe9b32fb59fa"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/evangelium$elysium/mw$default/1_7.zip"
-hash = "f74dcd1ce463952f8e26bfd5f0a69738594991c64ffc78a9b018e740dfc3961f"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/evangelium$elysium/mw$default/1_8.zip"
-hash = "d7235ab336ce8efd99ee75556238b3f99c3cac871570253bda825723759025be"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/evangelium$elysium/mw$default/2_1.zip"
-hash = "958b4561cd21111fef735d479158f5bbd5b677e1fe133a660dd60b16059e4b5d"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/evangelium$elysium/mw$default/2_2.zip"
-hash = "5f6a26f3928945a0f0b5d49557cccbef9fa8cbd7ad8707668d52cdd182d984eb"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/evangelium$elysium/mw$default/2_7.zip"
-hash = "e52e6c581559039483e3e6b4a402e3a4093733777505ced6eb4d7efa9f625b31"
 
 [[files]]
 file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/evangelium$elysium/mw$default/cache_1/-1_-1.xwmc"
@@ -2406,18 +1818,6 @@ file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/evangelium$elysium/mw$d
 hash = "4be3336ca109ad7cda3e46779ed2cc5c8abfec65e38cd1998d1a10e3fa719884"
 
 [[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/evangelium$elysium/mw$default/caves/-1/0_8.zip"
-hash = "c192c3a7d86f5e27d6cd2c933599e6b8ad68e2e9bcefdbcb47b201b15475108e"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/evangelium$elysium/mw$default/caves/-1/1_2.zip"
-hash = "4d37a427436d342217c2b6d0fa95fa33e0beef0dd8a251926a1ecba15ccac8fe"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/evangelium$elysium/mw$default/caves/-1/1_3.zip"
-hash = "732d3a259d6a5a05cb3cfd199acda513762fbbb196dfbfe0f715a39ca0747c37"
-
-[[files]]
 file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/evangelium$elysium/mw$default/caves/-1/cache_1/1_2.xwmc"
 hash = "72f63576b3dcbc93ac12b4d264eb4fda093e339028fa6b7802bc3ef02a681b63"
 
@@ -2426,28 +1826,8 @@ file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/evangelium$elysium/mw$d
 hash = "dc46af03d183a42c270a01b2958e6e2b59588702aa15b7f8f4ecd62af8391b32"
 
 [[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/evangelium$elysium/mw$default/caves/-2/0_8.zip"
-hash = "b5bac716796de143ecb861cc8ce39135c2197de1a30fdf548b0bbf23572ee90b"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/evangelium$elysium/mw$default/caves/-2/1_2.zip"
-hash = "9778c3a394fb226457d49632b7b84fb2c0c965acf07e78991ab73170f2fcfaa6"
-
-[[files]]
 file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/evangelium$elysium/mw$default/caves/-2/cache_1/1_2.xwmc"
 hash = "c3ab20b1c0c54343e98b1fc47ef1301b568efb893702ce09fa3abcdb5e45366b"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/evangelium$elysium/mw$default/caves/-3/0_8.zip"
-hash = "e5ad754c8211808257b6ffc7b14879ae39ccbca8b0362e3b0a4d4d69277cbbb0"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/evangelium$elysium/mw$default/caves/-3/1_2.zip"
-hash = "4468b98ad8443a97211b6c9f6465fcb2aa05c98f27cfe2c7fabe9401b2d2fdff"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/evangelium$elysium/mw$default/caves/-3/1_3.zip"
-hash = "19b543e8adf358e618f8509af5ecfdf9df2e8df9ae3ac4b18b9a2e85fc9e2165"
 
 [[files]]
 file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/evangelium$elysium/mw$default/caves/-3/cache_1/1_2.xwmc"
@@ -2458,48 +1838,20 @@ file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/evangelium$elysium/mw$d
 hash = "5b85be41278cd9dd82cba98250cfe383dd9caa5f8b1f63794cf022fd574a0edc"
 
 [[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/evangelium$elysium/mw$default/caves/0/0_8.zip"
-hash = "2ba5f3549f62543b2fa9ab631ad8400ea63eb26ee239e44a130f6a7d04384332"
-
-[[files]]
 file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/evangelium$elysium/mw$default/caves/0/cache_1/0_8.xwmc"
 hash = "eda2271affa0744367cdde53a82df82e9d7268b50f83d50844845443663e3c29"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/evangelium$elysium/mw$default/caves/1/0_8.zip"
-hash = "6c6929d80b554b3fd30f84622cedc9253a5532e10af141163c97f6fc507e8c05"
 
 [[files]]
 file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/evangelium$elysium/mw$default/caves/1/cache_1/0_8.xwmc"
 hash = "0a3c6b833960d6e60bfac6b96473451c153468ec918e6778f135843817c7f783"
 
 [[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/evangelium$elysium/mw$default/caves/14/0_8.zip"
-hash = "32f4674cb5c7b55a00c67de2d59c2985914d94838f0159bb64602a4a8636debd"
-
-[[files]]
 file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/evangelium$elysium/mw$default/caves/14/cache_1/0_8.xwmc"
 hash = "9f5666280cb3adedc95f76e6e796d4c66a22993b08e62745ef28058e868084a9"
 
 [[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/evangelium$elysium/mw$default/caves/15/0_8.zip"
-hash = "9482bef155a15b835d947f946aba8d928afd12f521b2f3f4bd3845968eb14734"
-
-[[files]]
 file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/evangelium$elysium/mw$default/caves/15/cache_1/0_8.xwmc"
 hash = "99470d1aeb8614e17e2836a379f19fdb0cab96ba36ff4d500aefa19df0110018"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/evangelium$elysium/mw$default/caves/2/0_8.zip"
-hash = "bdf62e375f8cc2793caaffd73f8bd08b1982ed566b254c5dc3d33dc9212d1eba"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/evangelium$elysium/mw$default/caves/2/1_2.zip"
-hash = "0b98f94a5eef54a45d56effbf16067d0c7512e3ae25be5f45c028b697cc5fc79"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/evangelium$elysium/mw$default/caves/2/1_3.zip"
-hash = "988dacf298ddd4d38ec360d7c8f8b4321a467f17494c5d54ae9899cd71096701"
 
 [[files]]
 file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/evangelium$elysium/mw$default/caves/2/cache_1/0_8.xwmc"
@@ -2514,14 +1866,6 @@ file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/evangelium$elysium/mw$d
 hash = "e7c2ca3aabd7375d0d31625f8eeebb464a987bb09a3926a421b9eff6c60b6352"
 
 [[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/evangelium$elysium/mw$default/caves/3/0_7.zip"
-hash = "b97bbf4f22e4622f6e54c42a8d468482324928f6addca6debe5f114ee05f9cdf"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/evangelium$elysium/mw$default/caves/3/0_8.zip"
-hash = "bc2359a44eada9620060753e3138466fb8c55b4cd8120ef9d894962fb1ff41de"
-
-[[files]]
 file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/evangelium$elysium/mw$default/caves/3/cache_1/0_7.xwmc"
 hash = "4fd56ac05b3678dd11bbdd198335e3bedf29f73dc1f3c82b2b2ffceda1b71743"
 
@@ -2530,16 +1874,8 @@ file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/evangelium$elysium/mw$d
 hash = "72c0fc1f9b88fc9fd01f90cc0fa72fe5af5325960b84aa397275d8965ee17863"
 
 [[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/evangelium$elysium/mw$default/caves/4/0_8.zip"
-hash = "a116395e49f408be23ebe678d6bb36d0250c03c28a2ab9b871da40c99408213d"
-
-[[files]]
 file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/evangelium$elysium/mw$default/caves/4/cache_1/0_8.xwmc"
 hash = "1c73debcefc77dfeb54bfccb2efc55868136cff5c3a672e95e21db879fa9c037"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/evangelium$elysium/mw$default/caves/5/0_8.zip"
-hash = "a1e49ca3998068308763261069f89bfd7ed82e288115aaf70a4aa07b2fcec348"
 
 [[files]]
 file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/evangelium$elysium/mw$default/caves/5/cache_1/0_8.xwmc"
@@ -2550,512 +1886,8 @@ file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/dimension_config.t
 hash = "d8f1c9022726f416f25e883f760cbbc6cfca0e944dc17044b94bd7785e676e80"
 
 [[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/-10_-1.zip"
-hash = "5b4ff74d122cf35d3f6917f70e239d52c4b12b1ba4f8261e128f30f8047c0f42"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/-10_-2.zip"
-hash = "cb3af9664eeec2e1009332e48d3576bd6f5f63a8311798b5dd4a9791c45a5bff"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/-10_-3.zip"
-hash = "74b8e29d83cb18e6fb50549c1d9caec694462440a66c36dbc29e7c35a80d81fe"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/-11_-1.zip"
-hash = "1bb373536ed346eb99c144b823360aa25319c3db23278ed728b05be9d2db6183"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/-11_-2.zip"
-hash = "c815e4f55f10650bec835e362f86bf963bdb5a75c52b5a0fc79e516bd676ead8"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/-12_-1.zip"
-hash = "bdf386842fa2e21e9caf76310488d7bd21adaf23f90a4e8b15c4accd75a8aa48"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/-12_-2.zip"
-hash = "aa0a40823a1877ea52a64db130948e479ce7676db1bc2a2af68b573a12f2e822"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/-12_16.zip"
-hash = "a48d0d365234a1d76ac7778c3ee177f8104ff1418fc9813e7fda63b4658874d4"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/-13_-1.zip"
-hash = "dc0f5feb79055b487edef8549dcb6824eedc0639212661239d81021b52f327c9"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/-13_-2.zip"
-hash = "835ee618bb18e807e6de9b08010544a1e0ed27ae85efc97223cd528b0ba2b175"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/-14_7.zip"
-hash = "6609c875e38689860f7edc6fbeaf98c315d4bcf78d32c512a761f1c06f373468"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/-15_22.zip"
-hash = "72ab6626a9d037fdce295b58b573695292754d897bce00a6cb09403d0ec8b4fc"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/-16_22.zip"
-hash = "eecc0a436a9397f795e1480338d311074910f8abb11a18bc83fdd2fc0d46fb66"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/-16_4.zip"
-hash = "e4920ec18a1df282f862556132d77026526033bdecd130990fc7adc694555ad4"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/-1_-1.zip"
-hash = "b767b0567d34230815126c43be4e5ee8c28ff20f11a87bee2a9960375728b756"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/-1_-2.zip"
-hash = "0797c1f04d86098a2db8dae06f54518fa97e922fb4692aee512b66b73520f7a3"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/-1_0.zip"
-hash = "e103f8bd8088cfce7dcf2e172142e3a14ff679cc9dfeb3a6985e44f9d2c6682e"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/-1_1.zip"
-hash = "14d03e0d0aeede902eaffe97e08704caa0b75717d056be9e260aad8e8ae7c7e7"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/-1_4.zip"
-hash = "07fd0a8db8ac106b0e77b6101ce140ff381e37ba9e845b25d065b36036118aea"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/-1_5.zip"
-hash = "ac1bbc424d48d8d5dc197f2c9239dec8b83549edaf76ad242b984f14d55a4622"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/-23_1.zip"
-hash = "f3e0c758e623d3be9d5a62e061eee3ad4a2bedc7d147b5395fe2efa2ca269bfa"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/-23_2.zip"
-hash = "7914b01ad331666dd1cd71b7de08e85084cd5e6e4facf0e1487e4a7ab6c527fd"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/-24_1.zip"
-hash = "0d49344b9a9dcf1229516a7fae8d07cab7a00815e31a039922bd266d1500bb4b"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/-24_2.zip"
-hash = "ee0adb8828e676d67b27e67bf7c178b3b813981841b519d7ac29ec001454fd13"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/-2_-1.zip"
-hash = "49e1e32a6e2b15eb2881cf6f9642624435d4907f1fbfb0d6802a07c998487317"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/-2_-5.zip"
-hash = "0e7c3589926d81521129747e98ecae77854f736985073def9b288f97cb86aff8"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/-2_-6.zip"
-hash = "ff4b8e1e0eb24290b4c2c814d42321032a854d633c769d4ef2f6ca2ec4ced842"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/-2_0.zip"
-hash = "6abae45bc09c0efc98bd107801b44647100429a3fcf5b29ff8daa6faac539bb5"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/-2_1.zip"
-hash = "5df3f99db1a1f0690e3a250770cf71151082c81c06bb4b933a6ef8a2a55d6354"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/-2_5.zip"
-hash = "6476a2a6708841d7727e7b1a45fef39affd33125f2bd885d13000de5abc60f16"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/-3_-5.zip"
-hash = "b2cea4d579df6c9436fb222dc17465c4d54ff7574fbfd95db712e0c650c38e24"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/-3_-6.zip"
-hash = "c4ce96fa4cf69e3580fe147d47e9c40a0ad32b54cab8d2c870dbb8960343defb"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/-47_17.zip"
-hash = "cbc2bc3d33a3c71555f84fa85d7c8c7a53ea8a2e22950f3228ea0d54dba09aa3"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/-55_-15.zip"
-hash = "f7100818c767b9ae017ebfe32b42ba8d1aa76840de8aea81717cc2b0aca8a214"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/-5_-3.zip"
-hash = "93da2e1f55f95cf05bb00c9121c5e6c164c8d15ff0fb3c65896b464d24ac8f16"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/-6_5.zip"
-hash = "cb1dbd8ca7a4dcb4df96adfa17a2d62678c16b84a91b26a016d6f8a4f6435fe0"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/-8_17.zip"
-hash = "144829cdbb8d82e1015fcdd5a61d36420009bc473cf72492d02747910f79c26e"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/-8_2.zip"
-hash = "1d5a5671b65be28c5abafed7b8e65b41c1a177e62482105cb130d455180c8559"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/-8_3.zip"
-hash = "1cbe1f35ce324f0f734fdc847567af12d3fcbfd6b689973918eb8420e084a422"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/-9_-2.zip"
-hash = "3a6e9adbef5da5e4cd3a2eb89c6ab3c9b3cb7775233397de7f82ffd6f25d64c0"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/-9_-3.zip"
-hash = "b2c38dcdb268659cdd02b3ac78883ecb5589bda9deb4de76053c392e7f082880"
-
-[[files]]
 file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/.lock"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/0_-1.zip"
-hash = "c5ed699bec269d7ec39c1bb20c4c93c3e6983c34c26589fafe47c80a71c0fede"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/0_-2.zip"
-hash = "4519a0d6ed9fb25ccb2fc0850fa792dfd060cb6edb1c60223b6936ea6193f716"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/0_0.zip"
-hash = "9475a4482d2f3a4ec898dd512fb2d42042ed856e887684714757aec029d5d1df"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/0_1.zip"
-hash = "68ee657a6e8fbb5b20b6d7d926d196951a237ecd0c114ecb9717fb156a8e7cfb"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/0_2.zip"
-hash = "0876734faec61e507777f057eb2f1dcbc109d1639dc5377a3453e56022672641"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/0_3.zip"
-hash = "9bf3cd00a960209b4e5d4fee515ac9d79c4035456045399ce3e5eac51812dfda"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/0_8.zip"
-hash = "58c4d506635ed431af791d0a3fc335b2c011ee9eadd485ae9d60f2429bcb5a23"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/14_20.zip"
-hash = "8779715a51e292cc97a780894d686c364e4686fc34c72e8e8f097c2951ecf4b1"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/14_21.zip"
-hash = "aa5ef81cca2940a393f53c203532fcbbd30f5473ba0a148a6ae71212d7fb928c"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/15_-3.zip"
-hash = "0aab70d3c839a92f553ca142ef49d8af0b67c5d4844f69adbe5fd5176669d07b"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/15_-4.zip"
-hash = "3012f3830d6b103c0f452ee052ef63c4ce953e8e13d7e6abc7dcd9be23ea6a1e"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/15_20.zip"
-hash = "cd875b28a73b270ffd8216a3b8e25f63e113928ef73d76d80c940f944fb9ea4f"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/15_21.zip"
-hash = "18d5d458fe82d10f85a1418fa762c82e7a4451c7105ea38d3c25cb0f4de3f2db"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/1_-1.zip"
-hash = "225e0355e69ba7e8559fa8529cd6a256680f2f4518aa5adbfca51585d0333afe"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/1_-2.zip"
-hash = "c9ab01cab19c62cf75606ba707be70fcfa5aaf8eedfa892896e4ce410b07281a"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/1_1.zip"
-hash = "5040254131eb7985d1edc6f2671280a254760fe2a57ad3a0df6d88cc3342a4ec"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/1_2.zip"
-hash = "ab59e2e43b3ac68e8de4265dab74f36a320d7c3a02e2822e136334c83052c01c"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/1_3.zip"
-hash = "3825f9a07c72922dc0d1d18437389cd2439c674036760378041627e0207e2532"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/1_6.zip"
-hash = "219d85a5865021d8de16e55b4a0b43a8c8fad5a3dcbb13756469158eeffd8239"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/1_7.zip"
-hash = "580a9bcb8a79785a26f8ad69b14a3b0fb57fc119ca59fc393c27384510cc710c"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/20_5.zip"
-hash = "59209e415525e21ac6edec3c0b45e7f3cdf3d908530587aa5a9a71014abba039"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/20_6.zip"
-hash = "cbe21ea40ef7efae9d96a599aa7db7b1a2f6f6a4e2a15f30d48a2de9b8cccd80"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/21_5.zip"
-hash = "c54a577d8255eafd5a9001010029b80a8ac969b97f0e717118ceb63bc2666255"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/21_6.zip"
-hash = "d349a4d0f17ffd44652d8441f5aa9e39810aced2bc5f6c0219f4bc011b6ab4ba"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/2_1.zip"
-hash = "54c6c3da02c06346d854458f0acc0e6f8370cede2c9339dde097f6a6542b5fbe"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/2_2.zip"
-hash = "b44f72bc31ead0d34966b1c7786f55845df21ede3e1828f4d6c93a52bd4b2bff"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/2_3.zip"
-hash = "6b3b671f5de18b19983cb126424573c0073deb43f83ed14c225f293270c945b3"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/2_5.zip"
-hash = "85c1be6358a81292f1873c005c0ea3f0de1071f2a76ffcbd4c93a3443c160572"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/2_6.zip"
-hash = "e8034f5a9c4e12ac5946c84a510dc0f0b5325217bca8df98c83403f596b13865"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/2_7.zip"
-hash = "0e23fa839988ae4e1ec1017bcc2cc863d1dc63adc6f4d56848f89c55b5192abf"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/3_1.zip"
-hash = "97f44a34c027b45eddbde3ffaaac471edef371c8b585916cfedd449b90b1d16c"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/3_2.zip"
-hash = "0c783cc7fe60bacdf5658b1c826d4bb67fdfe1251e86a630cd321f7d2aa71085"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/3_3.zip"
-hash = "1fba957bd1cf1f9334bf91b53fdabc6b7dc49284bb4b27214f479fb274f79a8e"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/3_4.zip"
-hash = "1670d3d123a7211e46cba3d47d1825d2ba7ae57928bfc507cccf86b1882f9752"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/4_2.zip"
-hash = "2c62ce6a081cdf384bab867158b05ea1778fe67e5b3807e6e9a1805acc2c98d5"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/4_3.zip"
-hash = "f3e60033dcee28f464a03069c21fc2b15fefdf0b0a48541661353f45d3b68677"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/4_4.zip"
-hash = "d396eb04928507cb2526d8605d723b1a8f74cec30ef8dddd9d033e6bf8b02a8e"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/4_5.zip"
-hash = "a7d5a194890da885778ff5ec0ce51da563a9cba1234e30ab5bc148f7974eb461"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/52_-138.zip"
-hash = "fc80d2144f70904b7e3ddc24bce5d91b51f54db4d9dccac81aac656fbcb9d5e5"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/58_-13.zip"
-hash = "b6737897386191dd60c3096a63509d10d8a7313f80eb262702ff2bad7dcc855f"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/58_-130.zip"
-hash = "799c733fb7b4b45a2cd01f2e0b3ba56facc9bd2b46c7f46b3f495269b9e91dc7"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/58_-14.zip"
-hash = "f3d806e4fbb9134b35951251cb92e3553c5c6b2194045f60e0dad8ce3ae725d6"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/59_-13.zip"
-hash = "652dadab8aacc945998b73e74aec6cb8d2a1ef620b481b1a806a866fee320560"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/59_-130.zip"
-hash = "982f4a4508eb38246c11b1d59039910ef71f7cf0f6ee526274e1d461ff5a05f8"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/59_-14.zip"
-hash = "b6a9b83a49cff6b80cf5b1aa30c93b21a455ccba997d958f7a442f5c696284ed"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/5_-2.zip"
-hash = "237b57d6e265963a27d5516e8ff654a182838ddebdf684e878a7f568b65a40b9"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/5_-27.zip"
-hash = "dd6f1c2b1e43726e86f7fcbb78f46decac60ac2920fb9604b2ffb7996f042e4c"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/5_-28.zip"
-hash = "593a8aa663d8e03f27216d65102895a1dfeb67fcee6e6c1c0a367cc77ba83cbc"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/5_-3.zip"
-hash = "68cf60fc1d47ccf0853912c085e89750aa1c4810ed8baf5f79745367bc2c59b5"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/5_2.zip"
-hash = "926080a03fc7b6b63a10692f09e568ddbc071dd1062a9bc25eebdfd1c6046cc7"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/5_3.zip"
-hash = "60640284fd9c8943252b17156172458629a8ebc9a14efe67d9d6e23256abd3ce"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/5_4.zip"
-hash = "16827e5ee71d776b6f174a7e2f168bc830ebed96290b8e5fb1f83c3aef4c41c7"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/5_5.zip"
-hash = "11e682a5a570554872b0078b53cde18523e1ffd5432a3be22d615f41c4c7fe6d"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/61_-17.zip"
-hash = "9de811bec1e2864aa94ca6dfa5ee0813208a05a21b127666c584aca2b025c1a1"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/61_-18.zip"
-hash = "f18796533ab36c4eaafe00ee5347c8768f0a5ca53e12443769190a20ed8088c0"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/62_-17.zip"
-hash = "84c2933063319674d2971a31a3173aa1762d32f2ae724583c0eb11ffa39f1baa"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/62_-18.zip"
-hash = "af38eb04cdd87cf08f3a578904ed67a89fc13f3b9410cdc9f521791dcf65e7c8"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/64_-136.zip"
-hash = "d82d64d3cb0d9d0e878fcb13888d74ad082da93293a40e3e78f527e56c542730"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/64_-137.zip"
-hash = "608a4c564d1bed358e354c17a9257a50ff41d849de0be5ee954694d718ee8455"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/65_-136.zip"
-hash = "2b5a1010947b1a1cb797e7a899a81e3443a694b7235f66896cd61c393f0f758f"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/65_-137.zip"
-hash = "f42a9d5a5a8429c8c3131c1c0c7daab9ee94649c7e8243d6ab465bba97962dad"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/66_-136.zip"
-hash = "659112f710ebee8a677c0dc82f02378c84a9e1fb92c1b00e8679027ff67759f4"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/6_-2.zip"
-hash = "535aacd8d5c3c846c61c4d5511a372e386157b4b199b557b95ab9c9c97eb998d"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/6_-27.zip"
-hash = "d93daa51d9a591688c8a523e49fab30e13b04294ca6841dcbb3a7446c274cb51"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/6_-28.zip"
-hash = "9a83e2ede89e5985c8952879a533cf858276544cc57159295a0f285854a5fe38"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/6_-3.zip"
-hash = "f2950379627c7650f94d1e89fdaf70765929b5db160e701c0054ee5eeb3d7ae0"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/6_1.zip"
-hash = "c07f933fade83327c2054f19f85c8b2984df965876afc9f367d8e808c05b115e"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/6_2.zip"
-hash = "ecf25eb74d3770135ade9dcf9260db1928089127a445b81b02cb7de95396dcd7"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/6_3.zip"
-hash = "10192d00e4e0636cd08150dfbc6fa35cf1b95f85828d23b6ffb8f567f825aa63"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/6_4.zip"
-hash = "516e4e67eaeb7848f6a02d61199c1a96c0d5bfd933b244ef3a36d7bed34f119a"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/7_-2.zip"
-hash = "e4733dfcb8210df85cf77304ed816b55e6e86df47a5ac2861c568a001f087797"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/7_-3.zip"
-hash = "debbcaad543993c39d97c3b0bee8a1288248200bfadeffb2986876073e86c050"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/7_-39.zip"
-hash = "72a7ebcad84c78490b0bcfae8b4e121ec06bf27ddbf5006f6811d6b4d6780a0c"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/7_-40.zip"
-hash = "db52790328d2bfe436c382a1ed85fbed661fd8d10779c8247352f0291715d6b6"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/7_0.zip"
-hash = "d9eda607314c3ce79d09aecdaff8ea3ce5839eff6a89f714be3366553a65f240"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/7_1.zip"
-hash = "e1d29d4bcb9a266c926b957e7ef98d6d52f053bd9edea5e74abb78f354caf2e5"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/8_-2.zip"
-hash = "c6f4dadb232efb803a8d12f83ec5a36afafcc631149916625447a387a6ec06f8"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/8_-3.zip"
-hash = "f3bde0c813003dae7087c87cf578e3e09d6c0487ee7f05cfa60574269fa6959a"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/8_-39.zip"
-hash = "13bb55279b31ab139bf4722a72d92f5194b64e7255516cd6f4aeaf032cde854d"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/8_-4.zip"
-hash = "07d5d146a28d97c410a8c0eda532cf87811271eded6d958aea686a468d4e3eb5"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/8_-40.zip"
-hash = "2f2430aab351c0af7ae8f8c3d08e71fc05352478beeb1c26514bf46ee855ad80"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/8_0.zip"
-hash = "1a001ceddf2507803a2d1ae4796b04f4db735508c7645ea696b531f4f325f775"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/8_1.zip"
-hash = "b9c9733b95d8f0b5cd8d641632ab0e1155c64b3dfd9e0f6b75494dbfed11ef3b"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/9_-3.zip"
-hash = "3c448fecf142a4a25fa746049dd9b44773e1f0882e77b1088a49b0f39eb7d390"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/9_-4.zip"
-hash = "be0ed44d8952870fd026f01d8d48826381ad766358f9c9eacac3b9992730d9c4"
 
 [[files]]
 file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/cache/1/-12_0.xwmc"
@@ -3926,22 +2758,6 @@ file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/cache_1
 hash = "3698e4771ffc1160473e6ea86aaa5607f29c55c67240e68f72de3c97b6ea39da"
 
 [[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/-1/5_-27.zip"
-hash = "1f1e5c88e9aeaa5d10fb44471fec07684a378b3441c7fbe9beab47fa91de6244"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/-1/5_-28.zip"
-hash = "e3602862661dafe15d188dabfd9d04bb1e27e25504d5bb09b87d2318417c4e09"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/-1/6_-27.zip"
-hash = "2275980ec5bc9060c6de35b14aa106f50c7fef2939e132585a808c8902c32e4c"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/-1/6_-28.zip"
-hash = "d2905f7716b3a43d684c78dbe062b3e71dce49fac76043989db0338ef8ba55b1"
-
-[[files]]
 file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/-1/cache_1/5_-27.xwmc"
 hash = "6bb8e54ff33f0ad2e0883d6ae4bba91b180f684a03ceaf67883b7a2a01718db9"
 
@@ -3956,22 +2772,6 @@ hash = "e42177e0ab9572ee2c4de1c80784c6b17bb0619dc3226ce6228728485a02b635"
 [[files]]
 file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/-1/cache_1/6_-28.xwmc"
 hash = "d6eae40f71cefb78ad278796bf5c1c5f6d451937da7064fa4a43a2480d160272"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/-2/5_-27.zip"
-hash = "7ace95eb83213b902e8afbb34de072fa5ac0ecee46c68115ccdf1257156eb9a7"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/-2/5_-28.zip"
-hash = "0e0920da1557115481209c8e1cf945734bbdd3153ff24fd3da6d560432e92aff"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/-2/6_-27.zip"
-hash = "51ac1aab911c59b06ba452de9b039f3bb58b71a904729a4e86844888266a27df"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/-2/6_-28.zip"
-hash = "6a22f2bf4506ac381476043f80fcb58a1db2b880a3cfe575aae5d54828239322"
 
 [[files]]
 file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/-2/cache_1/5_-27.xwmc"
@@ -3990,18 +2790,6 @@ file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/-
 hash = "6cc436dae0dc83752b014c18aeb8c8f7e7ecf3a3ef05551c76cafd3364477d77"
 
 [[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/-2147483648/14_20.zip"
-hash = "6e0bc8a646ef9d40d89d8b257e787ece0ffa1aa602b1b15b8db8cc6aabf8e54e"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/-2147483648/6_-27.zip"
-hash = "88b9d4bf5ca92f4feff37d66a916c2bfcfea80336e7beb3f8de7323c893b92da"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/-2147483648/6_-28.zip"
-hash = "54f7d9ed40c75baf2ac712eb150ebc0e393954dfad8d0a6dcebc64969f3ebfda"
-
-[[files]]
 file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/-2147483648/cache_1/14_20.xwmc"
 hash = "49346dc20639676f23f6d2e5db251b33d053c605db1b850884a5488ac0f6bb1c"
 
@@ -4014,32 +2802,8 @@ file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/-
 hash = "f07b59a7e385d97bbb5e476996b8c7faa6fada0043dcda4dfad25471c3961ad2"
 
 [[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/-4/0_8.zip"
-hash = "dc7b0386e987afd25cf998680816499fb15a949cea26e383850c4127312c3086"
-
-[[files]]
 file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/-4/cache_1/0_8.xwmc"
 hash = "a1834f4434b7840baa0dd51abb0644ea7441fd48004a16bfb5b1e2168ae3089e"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/1/-1_0.zip"
-hash = "4304cf4a76c3d6ec2bbaefd08b6e19463f164d92d339cb4e2eb9ed38989c6072"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/1/-1_1.zip"
-hash = "4690239ab1dfd7222c910c3a14741ce2a85ec3c1ce7f12d31316c773c934ffff"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/1/-2_0.zip"
-hash = "81e48a9bd080f3b577b04e00cc70c4b24f40b815491d75b485f239a11301c694"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/1/-2_1.zip"
-hash = "ffcddb424f044d4897e642e74ca1eb506269e9056f938097dbbe47ce24f555a2"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/1/14_20.zip"
-hash = "f9122deac7c5048d6f37cad392afab63d42e85cb72690152a04a8165ef8439e9"
 
 [[files]]
 file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/1/cache_1/-1_0.xwmc"
@@ -4062,32 +2826,8 @@ file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/1
 hash = "d157d052cf5fa700b1f112e5a2e5d1ec0bdf68e50f2f892176d4e3e90538ab0c"
 
 [[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/10/6_-27.zip"
-hash = "8c413a1273cc791a98b97c4536f53d84b496b350154b2002b18e93d65a16f3b2"
-
-[[files]]
 file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/10/cache_1/6_-27.xwmc"
 hash = "308fd051eb0d429b96c37f8af10c9eaf4a5faac4d7e6f4af6444e5560fe44caa"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/13/5_-28.zip"
-hash = "d97494624b8be6d9aa05c9495e466dc96978dbade7f35937dc808fe44a0f89c9"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/13/6_-27.zip"
-hash = "d73aeef90b8e76224e63512e7e3e64adfe54bbcd2bb54c1a84de7d49d257d7e5"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/13/6_-28.zip"
-hash = "d2e6ea7fdc110e87fdce2da1731db388c4f8945be1e3cc7c88a3e1f8868c5bc5"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/13/7_-2.zip"
-hash = "37eeda10c4eee4d0fbbf93021c4864601f690341ca6bedfe30d65a0fd61af4f1"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/13/8_-2.zip"
-hash = "0fea75a95af47b382cb7c5318954687bb6b22561907066deda24151d82a9e9c7"
 
 [[files]]
 file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/13/cache_1/5_-28.xwmc"
@@ -4110,22 +2850,6 @@ file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/1
 hash = "442051ca8d124b068cc843c3387020f1fac5d4bb733cbfa7afa10b3b22c4db0d"
 
 [[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/16/6_-2.zip"
-hash = "7920af830410a424d6057795498cab965151cdb5dc4699069ee8adc05ebda0b2"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/16/6_-27.zip"
-hash = "2e096745630a942a747a249eba5fac9b78cce7025d49a3b109348dfcc18cac60"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/16/6_-28.zip"
-hash = "8f4ceff5a6f8574e6650f2ed013154fdac1c828e52dae23b68083e33b297a58f"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/16/7_-2.zip"
-hash = "d7bb42636a34592ef1608af00d2c0d1ad595afe744f3490e1370ec4d897a59af"
-
-[[files]]
 file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/16/cache_1/6_-2.xwmc"
 hash = "dbd15c16371097748551f342048d9b20cfa56191e8fcece29cec1f68f099d45d"
 
@@ -4140,30 +2864,6 @@ hash = "0749b46239151a55c9c4f1582c1dc45c274086d2810ce824063f9dbf4935ae95"
 [[files]]
 file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/16/cache_1/7_-2.xwmc"
 hash = "9a83eafa91eb6dac8999750c3e5a07864860415d546d3b7c491372c8a7c42328"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/17/5_-27.zip"
-hash = "19fb6493b563d65ef5c8154caf20edcc2df1195d8397e7628b1c1ce57eaafc6d"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/17/5_-28.zip"
-hash = "a318fac360f7c0f5ebdd7a060bb2da9c61cdd83d77885f0dfbbc89c63772fcc1"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/17/6_-2.zip"
-hash = "6f10e9713e62a589b6685ba25e6d0369410943fc689d4b3ae61d0b010ebb538d"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/17/6_-27.zip"
-hash = "84f1f21e727be34956bbe17bf45accb497ec6c443cf7b925d9f2661b0ef991ca"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/17/6_-28.zip"
-hash = "47c843d7648ea39c26ad029960e8b5d334f57049749707f55850faaf8c7b3486"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/17/7_-2.zip"
-hash = "4adba0e088b65eb5ba870d9e75c1b8d22de54ccd09f4de5845bdffdc820620b1"
 
 [[files]]
 file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/17/cache_1/5_-27.xwmc"
@@ -4188,26 +2888,6 @@ hash = "88454957f9dcf9bc7d9f514f97bbf23e63459889c504416b6cbd223728917e75"
 [[files]]
 file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/17/cache_1/7_-2.xwmc"
 hash = "526d550c4e6f0926c0e992662b497067c06d6afa2f5963a0169440152f08caf7"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/2/14_20.zip"
-hash = "d54e983b3a770af4a92b375728666ed8e606269abdd49723f626e0b23cf4de9a"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/2/14_21.zip"
-hash = "20b89a7e7b91585eb984bdab0b332e0d3ce1b6313ab7e11219f6fbc6837b9ca4"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/2/15_20.zip"
-hash = "3d1954bda3c9af77f79ebdcca8c81fe8aeed1cf2f2115d2d9913bc810c984496"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/2/15_21.zip"
-hash = "d89d65178999b00825b65ff013ad069615dea120353fa51cc11a031bc9b7dbff"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/2/6_-27.zip"
-hash = "b33b9738035993c0008508427b80b3c08a7814aa4950adce82c5973788a45d5b"
 
 [[files]]
 file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/2/cache/1/3_0.xwmc"
@@ -4254,18 +2934,6 @@ file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/2
 hash = "c837c3e9ff57bcde9125691ef085b4d32a9fa84d3fba3091fb07b1608abd031d"
 
 [[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/3/-1_4.zip"
-hash = "4e861c3a01b2b6a0d2b8244d7525308bccef2a9fefa9ac049110dc4c0ff5ca4a"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/3/-1_5.zip"
-hash = "f118d6bf8ddccfda397f0e1cb54b9385e10cc34c856ba3f9bbf279957eb13f1b"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/3/-2_5.zip"
-hash = "d2b90de9b1506f22315834a3d9c86a0fcf91bf833de83e754e19fae66cd373ed"
-
-[[files]]
 file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/3/cache_1/-1_4.xwmc"
 hash = "d61f0f5d2c05e8b09e05b39228870731f35a90d847064b1c937cd03f8ac2be93"
 
@@ -4278,18 +2946,6 @@ file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/3
 hash = "c501a5df8e0f317cbb28eb097651c9a46e8ff3b6e8195cfc9b56a574aa7b6ca2"
 
 [[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/4/-1_4.zip"
-hash = "18aa84a4f549ffb32cf2ed949feebb440c7a78d383b82fa17b61b82e4d8e5e6a"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/4/-1_5.zip"
-hash = "a8c233cedd7cf69e8de58eeb15680ca3f68c3b539e5b1af2a39f3ad958be89cc"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/4/-2_5.zip"
-hash = "3ee7793a698e2f4e71087a1de3a877283a7f6ea08b36307e8e8ca294197d8a02"
-
-[[files]]
 file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/4/cache_1/-1_4.xwmc.outdated"
 hash = "4de77bb4ae0030fe6c2ea1c6cc958079461845010213fd2f10ff325c70134732"
 
@@ -4300,26 +2956,6 @@ hash = "d7a398652e93394eb217738050eda8eefe8651967e59429f49c41a1e604114ec"
 [[files]]
 file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/4/cache_1/-2_5.xwmc.outdated"
 hash = "238bc78f8b397619d49b01f9e7974bed6e50e746c325ba6b363827573f9ca806"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/5/-1_4.zip"
-hash = "9a38fce2b970f3a577d438c65b03af5f96de9e17ee11ea58403eb1e837830074"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/5/-1_5.zip"
-hash = "d96d528eca3795d82871ce7d37dc8e4576f59277f9b93ca9c07cd31cd282436d"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/5/-2_5.zip"
-hash = "7812f0d66a942bc9aa8606cfa32663d2515376d5c9972c44df08518d9fef9429"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/5/5_2.zip"
-hash = "02d4dbddde0ed4d8c20d5f8df1220f69b149ded91e1f0086be48fd20434740f6"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/5/5_3.zip"
-hash = "4d82076fef9441b10ac3a176d890b843e4ff6fda7cf8651ce2e1f4e7189427d7"
 
 [[files]]
 file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/5/cache_1/-1_4.xwmc.outdated"
@@ -4342,22 +2978,6 @@ file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/5
 hash = "ba6813eaf75a680354e6374739f355e776d08972c5e4f6e7fdd2ebd20fe9d6c6"
 
 [[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/6/-1_5.zip"
-hash = "1ffa47492d91799565feb7fbc1fb84799fba7123b6cf744bb2fdb62a616d4496"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/6/-2_5.zip"
-hash = "0ec53ddea0a2e721fb4fda887216bfc5d034c589dcc813c4163c8cec3aed770a"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/6/5_2.zip"
-hash = "9d1e7a8b65a83017964202c4daa919f32cd43a38b0022e3ea00d54d4143c83ce"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/6/5_3.zip"
-hash = "b16caf6d0828ad093220242d965f721d6d6a49504f12a1b0c1a75b18dc5fce19"
-
-[[files]]
 file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/6/cache_1/-1_5.xwmc"
 hash = "eb6297925398a55a3c2fbe3bf3340369a2439ca583f36f40f32926783f768e27"
 
@@ -4374,36 +2994,12 @@ file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/6
 hash = "ea57dd2971ffb7395d7d8b0b2357f3ed28ff2eb5c74cb1afbd8b8cda8a296c12"
 
 [[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/7/5_2.zip"
-hash = "12cc66e47566933ad1a2ccdb194826a75d4243e9a9941a2a249500acca170550"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/7/5_3.zip"
-hash = "011c4a7eb25c2ba5ea9f9b4e4fb86873952342a7a4b732a9291b396e303235d9"
-
-[[files]]
 file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/7/cache_1/5_2.xwmc"
 hash = "85edff8ef3dbdcd06990f80012dc78ea9c3fdb04f536f3c2a5da4e0f806ccc1c"
 
 [[files]]
 file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/7/cache_1/5_3.xwmc"
 hash = "4fac8c289913f8c9c68cb3c28c181ba1e133297db38b965897954059b0289d27"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/8/5_-27.zip"
-hash = "e525afb093c21e41499eba15965b02fb97eed4449871d7051d58342f902cec0f"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/8/5_-28.zip"
-hash = "3a846152b99e489ba5c9b92ef81b9d2de55d12eacc78c4e8c59a64b4e3328d2d"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/8/6_-27.zip"
-hash = "8b7a60288cf892f11b0cf89ec3682e36fcc9d36f88b3624dd8b737071bfa5fba"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/8/6_-28.zip"
-hash = "ec61879f860a5c4709663073f2820bcec281006a7c0786d4e153362b7cdf7627"
 
 [[files]]
 file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/8/cache_1/5_-27.xwmc"
@@ -4420,10 +3016,6 @@ hash = "9df24d3fb36bd7a346db9196c83e5d2bc2d79d5655054b3117a46f917ad4a025"
 [[files]]
 file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/8/cache_1/6_-28.xwmc"
 hash = "0726a81ad29f2e3ec33565ae9a70c7227308078b5b48bbdd8d9a47cd11bd2a6a"
-
-[[files]]
-file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/9/6_-28.zip"
-hash = "ea770412fc4ce1b5bb9f9eb3430a2eafed4df43bc2522faf28c4085e9fb62fd9"
 
 [[files]]
 file = "xaero/world-map/Multiplayer_schildi.flumuffel.de/null/mw$default/caves/9/cache_1/6_-28.xwmc"
