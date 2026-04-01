@@ -1,0 +1,13 @@
+name = "Library Ferret"
+filename = "libraryferret-fabric-1.21.8-4.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/DOB2l4oJ/versions/3AZUClgr/libraryferret-fabric-1.21.8-4.0.0.jar"
+hash-format = "sha512"
+hash = "0143a1261eba1858f3074fa5377cea4f9b9e9ba8d5d470c4cf54db05d9cf5caff8e971c09d6fed6a9adfafd47ab51731720aa1b4f875f55259d28ade19addc24"
+
+[update]
+[update.modrinth]
+mod-id = "DOB2l4oJ"
+version = "3AZUClgr"

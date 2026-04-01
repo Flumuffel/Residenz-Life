@@ -1,0 +1,19 @@
+{ 
+    "__comment1": "In this file you can define custom interaction protection, by adding an entry the block becomes protected.", 
+    "__comment2": "If you set 'absolute_block_protection' to true, the list in this file is ignored and all blocks become protected.", 
+    "__comment3": "Note: There is a hardcoded exception for SIGN blocks.", 
+    "absolute_block_protection": false, 
+    "blocks": [ 
+        "minecraft:chest", 
+        "minecraft:ender_chest", 
+        "minecraft:trapped_chest", 
+        "minecraft:furnace", 
+        "minecraft:lit_furnace", 
+        "minecraft:hopper", 
+        "minecraft:dispenser", 
+        "minecraft:dropper", 
+        "minecraft:unpowered_repeater", 
+        "minecraft:powered_repeater"
+    ], 
+    "entities": []
+}

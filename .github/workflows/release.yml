@@ -1,0 +1,47 @@
+name: Release Installer
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-release:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "21"
+
+      - name: Refresh packwiz index
+        shell: pwsh
+        run: .\packwiz.exe refresh
+
+      - name: Build Prism installer zip
+        shell: pwsh
+        run: |
+          if (Test-Path "Residenz-Life-Installer.zip") {
+            Remove-Item "Residenz-Life-Installer.zip" -Force
+          }
+          Compress-Archive -Path @(
+            "packwiz-installer-bootstrap.jar",
+            "instance.cfg",
+            "mmc-pack.json"
+          ) -DestinationPath "Residenz-Life-Installer.zip" -Force
+
+      - name: Publish latest release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: latest
+          name: Residenz-Life latest
+          make_latest: true
+          overwrite_files: true
+          files: Residenz-Life-Installer.zip

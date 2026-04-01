@@ -1,0 +1,13 @@
+name = "Villager Farmer House"
+filename = "villager_farmer_house-1.0.1-fabric-1.21.8.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/pizY5sSx/versions/9cUPCKbw/villager_farmer_house-1.0.1-fabric-1.21.8.jar"
+hash-format = "sha512"
+hash = "b798106d1133ea6470470a790bbf057b1af466f4173a432f53ce65bade996d13645d0a49c068641ac28cf21afe1bfa1f73ac9193e774e33d1f0fbc008856c23c"
+
+[update]
+[update.modrinth]
+mod-id = "pizY5sSx"
+version = "9cUPCKbw"

@@ -1,0 +1,13 @@
+name = "Evangelium"
+filename = "evangelium-1.10.2-1.21.8.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/FBQPUFNO/versions/2ubtdYt8/evangelium-1.10.2-1.21.8.jar"
+hash-format = "sha512"
+hash = "c8327d00c3e8375ddade832b46d424ec62a6b315ec1a1a95c6d8871bcdbfa42dcc94c16f16f748618d012cbd5402ecf38f48a55f109696d1e47d95ebb9704289"
+
+[update]
+[update.modrinth]
+mod-id = "FBQPUFNO"
+version = "2ubtdYt8"

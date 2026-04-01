@@ -1,0 +1,247 @@
+{ 
+    "format": 1, 
+    "info": "Land-Developer Main Configuration File", 
+    "wiki": "https://fexcraft.net/wiki/mod/landdev", 
+    "general": { 
+        "server_icon": { 
+            "info": [ 
+                "Server Icon to be shown in the Location Update GUI."
+            ], 
+            "value": "http://fexcraft.net/files/mod_data/landdev/default_server_icon.png"
+        }, 
+        "default_icon": { 
+            "info": [ 
+                "Default Dis/Mun/Cou/Region Icon to be shown in the Location Update GUI."
+            ], 
+            "value": "http://fexcraft.net/files/mod_data/landdev/default_icon.png"
+        }, 
+        "save_spaced_json": { 
+            "info": [ 
+                "If true, the JSON will be formatted to be easily readable,", 
+                "otherwise if false it will not have any spacing, to save on disk and load time."
+            ], 
+            "value": false
+        }, 
+        "protect_wilderness": { 
+            "info": [ 
+                "If wilderness protection should be enabled."
+            ], 
+            "value": true
+        }, 
+        "chunk_link_limit": { 
+            "info": [ 
+                "How many chunks can be linked to another. Set to '0' to disable."
+            ], 
+            "range": "0 ~ 64", 
+            "value": 3
+        }, 
+        "min_property_width": { 
+            "info": [ 
+                "Min width on x and z axis for Properties."
+            ], 
+            "range": "2 ~ 128", 
+            "value": 2
+        }, 
+        "min_property_height": { 
+            "info": [ 
+                "Min height on y axis for Properties."
+            ], 
+            "range": "2 ~ 256", 
+            "value": 2
+        }, 
+        "max_property_width": { 
+            "info": [ 
+                "Max width on x and z axis for Properties."
+            ], 
+            "range": "2 ~ 128", 
+            "value": 32
+        }, 
+        "max_property_height": { 
+            "info": [ 
+                "Min height on y axis for Properties."
+            ], 
+            "range": "2 ~ 256", 
+            "value": 8
+        }, 
+        "request_timeout_days": { 
+            "info": [ 
+                "Default days value for request timeouts."
+            ], 
+            "range": "1 ~ 30", 
+            "value": 7
+        }, 
+        "run_location_event": { 
+            "info": [ 
+                "Should the 'PlayerLocationEvent' be run every time the player enters another district/named-chunk?", 
+                "Use this if you have an LD Addon requiring it."
+            ], 
+            "value": false
+        }, 
+        "min_municipality_distance": { 
+            "info": [ 
+                "Minimum chunk distance between Municipality centers."
+            ], 
+            "range": "4 ~ 40960", 
+            "value": 16
+        }, 
+        "allow_new_regions": { 
+            "info": [ 
+                "If new LD Region Layers can be created (/rg create)."
+            ], 
+            "value": true
+        }
+    }, 
+    "prices": { 
+        "default.chunk": { 
+            "info": [ 
+                "Default price for unclaimed chunks. (1000 = 1$)"
+            ], 
+            "value": "100000"
+        }, 
+        "create.property": { 
+            "info": [ 
+                "Server fee for creating a property."
+            ], 
+            "value": "100000"
+        }, 
+        "create.district": { 
+            "info": [ 
+                "Server fee for creating a district."
+            ], 
+            "value": "5000000"
+        }, 
+        "create.municipality": { 
+            "info": [ 
+                "Server fee for creating a municipality, half of it goes to the new Municipality."
+            ], 
+            "value": "25000000"
+        }, 
+        "create.county": { 
+            "info": [ 
+                "Server fee for creating a county, half of it goes to the new County."
+            ], 
+            "value": "50000000"
+        }, 
+        "create.region": { 
+            "info": [ 
+                "Server fee for creating a region, half of it goes to the new Region."
+            ], 
+            "value": "100000000"
+        }
+    }, 
+    "tax": { 
+        "enabled": { 
+            "info": [ 
+                "If the Tax System should be enabled."
+            ], 
+            "value": true
+        }, 
+        "interval": { 
+            "info": [ 
+                "Interval between tax collection cycles, in hours."
+            ], 
+            "range": "1 ~ 168", 
+            "value": 24
+        }, 
+        "inactive_players": { 
+            "info": [ 
+                "If inactive (since more than one interval) players should be taxed as well."
+            ], 
+            "value": false
+        }
+    }, 
+    "chat": { 
+        "override": { 
+            "info": [ 
+                "If the vanilla chat should be overridden by the LandDev chat."
+            ], 
+            "value": true
+        }, 
+        "color_player": { 
+            "info": [ 
+                "Default color of the player role marker (default `#`) in chat."
+            ], 
+            "value": "&6"
+        }, 
+        "color_admin": { 
+            "info": [ 
+                "Default color of the admin role marker (default `#`) in chat."
+            ], 
+            "value": "&4"
+        }, 
+        "color_discord": { 
+            "info": [ 
+                "Default color of the discord role marker (default `#`) in chat."
+            ], 
+            "value": "&9"
+        }
+    }, 
+    "discord": { 
+        "active": { 
+            "info": [ 
+                "If the discord chat integration should be active."
+            ], 
+            "value": false
+        }, 
+        "adress": { 
+            "info": [ 
+                "Adress/IP of the Discord Chat Bot you are using.", 
+                "By default this points to the one provided by Fexcraft."
+            ], 
+            "value": "fexcraft.net"
+        }, 
+        "port": { 
+            "info": [ 
+                "Port on which the Discord Chat Bot is listening."
+            ], 
+            "range": "1000 ~ 65535", 
+            "value": 10810
+        }, 
+        "token": { 
+            "info": [ 
+                "Token to use to communicate with the Discord Chat Bot."
+            ], 
+            "value": "f6956873"
+        }
+    }, 
+    "client": { 
+        "location_update_on_left": { 
+            "info": [ 
+                "Set to false if the Location Update GUI should be on the right side."
+            ], 
+            "value": true
+        }, 
+        "chat_format": { 
+            "info": [ 
+                "Format of chat messages if chat override is enabled."
+            ], 
+            "value": "%s#&0] %s&0: &f%s"
+        }
+    }, 
+    "server_lang": { 
+        "started": { 
+            "info": [ 
+                "Message to be send to discord when the server started."
+            ], 
+            "value": "Server has started. Running LandDeveloper v%s"
+        }, 
+        "stopping": { 
+            "info": [ 
+                "Message to be send to discord when the server is stopping."
+            ], 
+            "value": "Server is closing."
+        }, 
+        "player_joined": { 
+            "info": [ 
+                "Message to be send to discord when a player joins."
+            ], 
+            "value": "%s joined the server."
+        }, 
+        "player_left": { 
+            "info": [ 
+                "Message to be send to discord when a player left."
+            ], 
+            "value": "%s left the server."
+        }
+    }
+}

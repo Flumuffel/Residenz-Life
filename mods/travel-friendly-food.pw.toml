@@ -1,0 +1,13 @@
+name = "Travel Friendly Food"
+filename = "travel_friendly_food-2.0.0-fabric-1.21.5-1.21.10.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/L4X0nLCx/versions/WHFPXIIi/travel_friendly_food-2.0.0-fabric-1.21.5-1.21.10.jar"
+hash-format = "sha512"
+hash = "8617cc738a8172ee834e33e5de43d5c9faa580a478bb8d69b8c78c1156574a95d1d82064a1c3c2af91030a6104da4a3f712fe143d260a6292bf0172c8e7fbace"
+
+[update]
+[update.modrinth]
+mod-id = "L4X0nLCx"
+version = "WHFPXIIi"

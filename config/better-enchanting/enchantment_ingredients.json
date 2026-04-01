@@ -1,0 +1,258 @@
+{
+  "minecraft:fire_protection": [
+    "minecraft:magma_block",
+    "minecraft:magma_cream",
+    "minecraft:lava_bucket",
+    "betterenchanting:essence_of_fire_protection"
+  ],
+  "minecraft:knockback": [
+    "minecraft:piston",
+    "betterenchanting:essence_of_knockback"
+  ],
+  "minecraft:mending": [
+    "betterenchanting:essence_of_mending"
+  ],
+  "minecraft:power": [
+    "minecraft:snowball",
+    "minecraft:leather",
+    "minecraft:ghast_tear",
+    "minecraft:shulker_shell",
+    "betterenchanting:essence_of_power"
+  ],
+  "minecraft:luck_of_the_sea": [
+    "minecraft:nautilus_shell",
+    "minecraft:heart_of_the_sea",
+    "betterenchanting:essence_of_sea_luck"
+  ],
+  "minecraft:thorns": [
+    "minecraft:cactus",
+    "minecraft:pufferfish_bucket",
+    "betterenchanting:essence_of_thorn"
+  ],
+  "minecraft:feather_falling": [
+    "minecraft:feather",
+    "minecraft:phantom_membrane",
+    "minecraft:wind_charge",
+    "betterenchanting:essence_of_feather"
+  ],
+  "minecraft:flame": [
+    "betterenchanting:essence_of_fire"
+  ],
+  "minecraft:aqua_affinity": [
+    "betterenchanting:essence_of_sea"
+  ],
+  "minecraft:sweeping_edge": [
+    "minecraft:iron_bars",
+    "minecraft:obsidian",
+    "betterenchanting:essence_of_sweeping"
+  ],
+  "minecraft:projectile_protection": [
+    "minecraft:leather",
+    "minecraft:brick",
+    "minecraft:iron_bars",
+    "betterenchanting:essence_of_projectile_protection"
+  ],
+  "minecraft:wind_burst": [
+    "minecraft:sugar_cane",
+    "minecraft:wind_charge",
+    "betterenchanting:essence_of_wind"
+  ],
+  "minecraft:smite": [
+    "minecraft:rotten_flesh",
+    "minecraft:glowstone",
+    "minecraft:quartz",
+    "minecraft:amethyst_shard",
+    "betterenchanting:essence_of_smite"
+  ],
+  "minecraft:frost_walker": [
+    "minecraft:blue_ice",
+    "betterenchanting:essence_of_ice"
+  ],
+  "minecraft:punch": [
+    "minecraft:deepslate",
+    "betterenchanting:essence_of_punch"
+  ],
+  "minecraft:blast_protection": [
+    "minecraft:gunpowder",
+    "minecraft:tnt",
+    "minecraft:creeper_head",
+    "betterenchanting:essence_of_blast_protection"
+  ],
+  "minecraft:impaling": [
+    "minecraft:pointed_dripstone",
+    "minecraft:iron_bars",
+    "minecraft:quartz",
+    "minecraft:diamond_sword",
+    "betterenchanting:essence_of_impaling"
+  ],
+  "minecraft:bane_of_arthropods": [
+    "minecraft:shears",
+    "minecraft:spider_eye",
+    "minecraft:cobweb",
+    "minecraft:fermented_spider_eye",
+    "betterenchanting:essence_of_arthropods"
+  ],
+  "minecraft:sharpness": [
+    "minecraft:flint",
+    "minecraft:iron_sword",
+    "minecraft:grindstone",
+    "minecraft:diamond",
+    "betterenchanting:essence_of_sharpness"
+  ],
+  "minecraft:efficiency": [
+    "minecraft:flint",
+    "minecraft:golden_apple",
+    "minecraft:obsidian",
+    "minecraft:chorus_fruit",
+    "betterenchanting:essence_of_efficiency"
+  ],
+  "minecraft:breach": [
+    "minecraft:iron_ingot",
+    "minecraft:smooth_stone",
+    "minecraft:tnt",
+    "betterenchanting:essence_of_breach"
+  ],
+  "minecraft:silk_touch": [
+    "betterenchanting:essence_of_silk_touch"
+  ],
+  "minecraft:looting": [
+    "minecraft:emerald",
+    "minecraft:spore_blossom",
+    "betterenchanting:essence_of_looting"
+  ],
+  "minecraft:lure": [
+    "minecraft:carrot_on_a_stick",
+    "minecraft:bread",
+    "betterenchanting:essence_of_lure"
+  ],
+  "minecraft:depth_strider": [
+    "minecraft:cod",
+    "minecraft:sponge",
+    "betterenchanting:essence_of_sea"
+  ],
+  "minecraft:soul_speed": [
+    "betterenchanting:soul_essence_1",
+    "betterenchanting:soul_essence_2",
+    "betterenchanting:soul_essence_3"
+  ],
+  "minecraft:respiration": [
+    "minecraft:pufferfish",
+    "minecraft:turtle_scute",
+    "betterenchanting:essence_of_respiration"
+  ],
+  "minecraft:fire_aspect": [
+    "minecraft:fire_charge",
+    "betterenchanting:essence_of_fire"
+  ],
+  "minecraft:piercing": [
+    "minecraft:flint",
+    "minecraft:arrow",
+    "minecraft:spectral_arrow",
+    "betterenchanting:essence_of_piercing"
+  ],
+  "minecraft:density": [
+    "minecraft:stone",
+    "minecraft:deepslate",
+    "minecraft:obsidian",
+    "minecraft:lodestone",
+    "betterenchanting:essence_of_density"
+  ],
+  "minecraft:swift_sneak": [
+    "betterenchanting:essence_of_sneak_1",
+    "betterenchanting:essence_of_sneak_2",
+    "betterenchanting:essence_of_sneak_3"
+  ],
+  "minecraft:loyalty": [
+    "minecraft:bone_block",
+    "minecraft:golden_carrot",
+    "betterenchanting:essence_of_loyalty"
+  ],
+  "minecraft:unbreaking": [
+    "minecraft:diamond",
+    "minecraft:crying_obsidian",
+    "betterenchanting:essence_of_unbreaking"
+  ],
+  "minecraft:riptide": [
+    "minecraft:water_bucket",
+    "minecraft:nautilus_shell",
+    "betterenchanting:essence_of_riptide"
+  ],
+  "minecraft:quick_charge": [
+    "minecraft:amethyst_shard",
+    "minecraft:glowstone",
+    "betterenchanting:essence_of_quick_charge"
+  ],
+  "minecraft:protection": [
+    "minecraft:copper_ingot",
+    "minecraft:iron_ingot",
+    "minecraft:diamond",
+    "betterenchanting:essence_of_protection"
+  ],
+  "minecraft:infinity": [
+    "betterenchanting:essence_of_arrows"
+  ],
+  "minecraft:fortune": [
+    "minecraft:gold_block",
+    "minecraft:emerald_block",
+    "betterenchanting:essence_of_fortune"
+  ],
+  "minecraft:multishot": [
+    "betterenchanting:essence_of_multishot"
+  ],
+  "minecraft:channeling": [
+    "betterenchanting:essence_of_channeling"
+  ],
+  "nova_structures:gravity": [
+    "minecraft:obsidian",
+    "minecraft:lodestone",
+    "betterenchanting:essence_of_gravity"
+  ],
+  "nova_structures:outreach": [
+    "minecraft:sugar_cane",
+    "minecraft:wind_charge",
+    "minecraft:sugar_cane",
+    "betterenchanting:essence_of_reach"
+  ],
+  "nova_structures:wax_wings": [
+    "betterenchanting:essence_of_wings"
+  ],
+  "nova_structures:multishot": [
+    "betterenchanting:essence_of_multishot"
+  ],
+  "nova_structures:antidote": [
+    "betterenchanting:essence_of_poison_protection"
+  ],
+  "nova_structures:traveler": [
+    "minecraft:golden_carrot",
+    "minecraft:rabbit_foot",
+    "betterenchanting:essence_of_agility"
+  ],
+  "nova_structures:piercing": [
+    "minecraft:flint",
+    "minecraft:arrow",
+    "minecraft:iron_sword",
+    "minecraft:trident",
+    "betterenchanting:essence_of_piercing"
+  ],
+  "nova_structures:illagers_bane": [
+    "minecraft:cactus",
+    "minecraft:iron_sword",
+    "minecraft:iron_block",
+    "minecraft:ominous_bottle",
+    "betterenchanting:essence_of_combat"
+  ],
+  "nova_structures:photosynthesis": [
+    "betterenchanting:essence_of_photosynthesis"
+  ],
+  "nova_structures:ghasted": [
+    "minecraft:ghast_tear",
+    "minecraft:fire_charge",
+    "betterenchanting:essence_of_arrows"
+  ],
+  "nova_structures:wither_coated": [
+    "betterenchanting:essence_of_building"
+  ],
+  "nova_structures:power": [
+    "betterenchanting:essence_of_power"
+  ]
+}

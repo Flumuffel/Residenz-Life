@@ -1,0 +1,13 @@
+name = "MTSAntiCheat"
+filename = "AntiCheat8-0.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/qjzCnp7T/versions/qAxa4aBv/AntiCheat8-0.0.1.jar"
+hash-format = "sha512"
+hash = "538834210595b029573f56adbb30b12ba020f2b074b14f5e1af9d68da36fb041eaca633b6b35c236de14862dd5dfe5ba2e825984776e01fba39bba5cc36ce540"
+
+[update]
+[update.modrinth]
+mod-id = "qjzCnp7T"
+version = "qAxa4aBv"

@@ -1,0 +1,162 @@
+{ 
+    "format": 1, 
+    "info": "FSMM 3 Main Configuration File", 
+    "wiki": "https://fexcraft.net/wiki/mod/fsmm", 
+    "general": { 
+        "starting_balance": { 
+            "info": [ 
+                "Starting balance for a new player. (1000 units == 1 F$)"
+            ], 
+            "range": "0 ~ 1000000", 
+            "value": 100000
+        }, 
+        "notify_balance_on_join": { 
+            "info": [ 
+                "Should the player be notified about his current balance when joining?"
+            ], 
+            "value": true
+        }, 
+        "unload_frequency": { 
+            "info": [ 
+                "Frequency of how often it should be checked if (temporarily loaded) accounts and banks should be unloaded. Time in minutes."
+            ], 
+            "range": "3 ~ 60", 
+            "value": 5
+        }, 
+        "partial_account_name_search": { 
+            "info": [ 
+                "(1.12 only) If true, accounts can be searched by inputting only part of the name, otherwise on false, the full ID/Name is required. Please note that partial search may use more server resources."
+            ], 
+            "value": false
+        }, 
+        "min_search_chars": { 
+            "info": [ 
+                "Minimum characters to enter in the 'Name/ID' search bar for search to work."
+            ], 
+            "range": "1 ~ 128", 
+            "value": 3
+        }, 
+        "transfer_cache": { 
+            "info": [ 
+                "Amount of executed transfer's data to be cached per account."
+            ], 
+            "range": "10 ~ 1000", 
+            "value": 50
+        }, 
+        "enable_cards": { 
+            "info": [ 
+                "Should (Debit) Cards be enabled?"
+            ], 
+            "value": true
+        }, 
+        "enable_atm_recipe": { 
+            "info": [ 
+                "Should the default ATM recipe be enabled?"
+            ], 
+            "value": true
+        }, 
+        "enable_mobile_recipe": { 
+            "info": [ 
+                "Should the default Mobile Banking Item recipe be enabled?"
+            ], 
+            "value": true
+        }
+    }, 
+    "registry": { 
+        "default_bank": { 
+            "info": [ 
+                "Default Bank of the Server. New accounts get this Bank assigned. Fallback Bank if a specific Bank was not found."
+            ], 
+            "value": "default"
+        }, 
+        "default_banks": { 
+            "info": [ 
+                "List of Banks which get loaded into memory each server launch."
+            ], 
+            "value": [ 
+                "default"
+            ]
+        }, 
+        "internal_items": { 
+            "info": [ 
+                "List of default FSMM Items. Remove entries from this list if you want to remove FSMM items. If you add new entries, you have to provide assets for them, e.g. via another mod or resourcepack."
+            ], 
+            "value": { 
+                "10000foney": 10000000, 
+                "1000foney": 1000000, 
+                "100foney": 100000, 
+                "100kfoney": 100000000, 
+                "10cent": 100, 
+                "10foney": 10000, 
+                "1cent": 10, 
+                "1foney": 1000, 
+                "20000foney": 20000000, 
+                "2000foney": 2000000, 
+                "200foney": 200000, 
+                "200kfoney": 200000000, 
+                "20cent": 200, 
+                "20foney": 20000, 
+                "2cent": 20, 
+                "2foney": 2000, 
+                "50000foney": 50000000, 
+                "5000foney": 5000000, 
+                "500foney": 500000, 
+                "500kfoney": 500000000, 
+                "50cent": 500, 
+                "50foney": 50000, 
+                "5cent": 50, 
+                "5foney": 5000
+            }
+        }, 
+        "external_items": { 
+            "info": [ 
+                "List of non-FSMM items to be regarded as money. Both Vanilla and Modded items are supported. If 'register' is true, the specific item can be withdrawn using the ATM."
+            ], 
+            "value": [ 
+                { 
+                    "id": "minecraft:nether_star", 
+                    "worth": 100000, 
+                    "register": false
+                }
+            ]
+        }
+    }, 
+    "display": { 
+        "currency_sign": { 
+            "info": [ 
+                "Custom Currency Sign"
+            ], 
+            "value": "F$"
+        }, 
+        "invert_comma_dot": { 
+            "info": [ 
+                "Invert ',' (comma) and '.' (dot) display."
+            ], 
+            "value": false
+        }, 
+        "show_decimals": { 
+            "info": [ 
+                "Should decimals be shown when zero? E.g. '234.00'"
+            ], 
+            "value": true
+        }, 
+        "show_centesimals": { 
+            "info": [ 
+                "Should centesimals be shown? E.g. '29.503' instead of '29.50'."
+            ], 
+            "value": false
+        }, 
+        "show_item_worth": { 
+            "info": [ 
+                "Should the Item's Worth be shown in the tooltip?"
+            ], 
+            "value": true
+        }, 
+        "thousand_separator": { 
+            "info": [ 
+                "Custom thousand separator sign, leave as 'null' for default behaviour."
+            ], 
+            "value": "null"
+        }
+    }
+}

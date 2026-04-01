@@ -1,0 +1,18 @@
+name = "Talking Heads"
+filename = "TalkingHeads-1.1.0+1.21.8+fabric.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/Os35nfkh/versions/gTMrLY0B/TalkingHeads-1.1.0%2B1.21.8%2Bfabric.jar"
+hash-format = "sha512"
+hash = "18816fecdf40e7b26dd64a7f7bcd3a0d1ba70e69852370caa76e0b161c4f5c4b6615e4c9cb8f6e2dd8efa68bdddc943b877021dd1cb2c03d962551ddbb0a1138"
+
+[update]
+[update.modrinth]
+mod-id = "Os35nfkh"
+version = "gTMrLY0B"
+
+[option]
+optional = true
+default = false
+description = "Fügt Animationen für Spieler hinzu, wenn sie über den Simple Voice Chat sprechen."
