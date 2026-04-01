@@ -25,23 +25,49 @@ jobs:
         shell: pwsh
         run: .\packwiz.exe refresh
 
+      - name: Read pack version
+        id: packmeta
+        shell: pwsh
+        run: |
+          $line = Select-String -Path "pack.toml" -Pattern '^version\s*=\s*"([^"]+)"' | Select-Object -First 1
+          if (-not $line) { throw "Konnte version in pack.toml nicht lesen." }
+          $version = [regex]::Match($line.Line, '^version\s*=\s*"([^"]+)"').Groups[1].Value
+          if (-not $version) { throw "Version ist leer." }
+          "version=$version" | Out-File -FilePath $env:GITHUB_OUTPUT -Encoding utf8 -Append
+
+      - name: Export CurseForge and Modrinth packs
+        shell: pwsh
+        run: |
+          .\packwiz.exe curseforge export -o "Residenz-Life-${{ steps.packmeta.outputs.version }}-curseforge.zip"
+          .\packwiz.exe modrinth export -o "Residenz-Life-${{ steps.packmeta.outputs.version }}.mrpack"
+
       - name: Ensure release assets exist
         shell: pwsh
         run: |
           if (-not (Test-Path "packwiz-installer-bootstrap.jar")) {
             throw "packwiz-installer-bootstrap.jar fehlt im Repository."
           }
-          if (-not (Test-Path "launcher-commands.txt")) {
-            throw "launcher-commands.txt fehlt im Repository."
+          if (-not (Test-Path "Residenz-Life-${{ steps.packmeta.outputs.version }}-curseforge.zip")) {
+            throw "CurseForge-Export fehlt."
+          }
+          if (-not (Test-Path "Residenz-Life-${{ steps.packmeta.outputs.version }}.mrpack")) {
+            throw "Modrinth-Export fehlt."
           }
 
       - name: Publish latest release
         uses: softprops/action-gh-release@v2
         with:
           tag_name: latest
-          name: Residenz-Life latest
+          name: Residenz-Life v${{ steps.packmeta.outputs.version }} (latest)
           make_latest: true
           overwrite_files: true
+          body: |
+            Automatisches Release von main.
+            Enthalten:
+            - packwiz-installer-bootstrap.jar
+            - Residenz-Life-${{ steps.packmeta.outputs.version }}-curseforge.zip
+            - Residenz-Life-${{ steps.packmeta.outputs.version }}.mrpack
           files: |
             packwiz-installer-bootstrap.jar
-            launcher-commands.txt
+            Residenz-Life-${{ steps.packmeta.outputs.version }}-curseforge.zip
+            Residenz-Life-${{ steps.packmeta.outputs.version }}.mrpack

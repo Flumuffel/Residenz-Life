@@ -1,7 +1,18 @@
-# Residenz-Life - Multi-Launcher Setup mit Auto-Update
+# Residenz-Life – Setup für mehrere Launcher
 
-Dieses Repo verteilt den Installer als `packwiz-installer-bootstrap.jar`.
-Der gleiche Command wird in allen Launchern verwendet:
+Residenz-Life nutzt `packwiz` mit Auto-Update vor dem Spielstart.
+
+## Downloads
+
+Im GitHub-Release `latest` findest du:
+
+- `packwiz-installer-bootstrap.jar` (empfohlen für Auto-Update)
+- `Residenz-Life-<VERSION>-curseforge.zip` (CurseForge-Export)
+- `Residenz-Life-<VERSION>.mrpack` (Modrinth-Export)
+
+## Einheitlicher Update-Befehl
+
+Diesen Befehl nutzt du überall dort, wo der Launcher einen Pre-Launch-/Custom-Command erlaubt:
 
 `java -jar packwiz-installer-bootstrap.jar https://raw.githubusercontent.com/Flumuffel/Residenz-Life/main/pack.toml`
 
@@ -10,52 +21,51 @@ Der gleiche Command wird in allen Launchern verwendet:
 - Java 21 installiert
 - Minecraft `1.21.8`
 - Fabric Loader `0.17.3`
-- Die Datei `packwiz-installer-bootstrap.jar` aus den GitHub Releases
+- `packwiz-installer-bootstrap.jar` im Instanzordner
 
-## Prism Launcher / MultiMC
+## Prism Launcher / MultiMC (empfohlen)
 
-1. Neue Instanz erstellen:
-   - Minecraft `1.21.8`
-   - Mod Loader: Fabric `0.17.3`
+1. Neue Instanz mit Minecraft `1.21.8` und Fabric `0.17.3` erstellen.
 2. `packwiz-installer-bootstrap.jar` in den Instanzordner kopieren.
-3. Instanz bearbeiten -> Einstellungen -> Befehl vor dem Start ausführen.
-4. Als Pre-Launch-Command eintragen:
+3. Instanz-Einstellungen öffnen und den Pre-Launch-Command setzen.
+4. Folgenden Command eintragen:
    - `java -jar packwiz-installer-bootstrap.jar https://raw.githubusercontent.com/Flumuffel/Residenz-Life/main/pack.toml`
-5. Spiel starten. Vor jedem Start werden Updates automatisch geprüft und geladen.
+5. Spiel starten. Updates werden bei jedem Start automatisch ausgeführt.
 
-## CurseForge App
+## Modrinth App (gut geeignet)
 
-1. Neues benutzerdefiniertes Fabric-Profil erstellen:
-   - Minecraft `1.21.8`
-   - Fabric `0.17.3`
-2. Profilordner öffnen und `packwiz-installer-bootstrap.jar` hineinkopieren.
-3. In den Profil-/Launch-Einstellungen ein Pre-Launch- oder Wrapper-Command hinterlegen:
+1. Neue Fabric-Instanz (`1.21.8`) erstellen.
+2. `packwiz-installer-bootstrap.jar` in den Instanzordner kopieren.
+3. In den Instanz-Einstellungen den Custom-/Pre-Launch-Command setzen.
+4. Diesen Command eintragen:
    - `java -jar packwiz-installer-bootstrap.jar https://raw.githubusercontent.com/Flumuffel/Residenz-Life/main/pack.toml`
-4. Danach normal starten. Das Update läuft bei jedem Start vor Minecraft.
+5. Starten und automatisch vor jedem Launch aktualisieren lassen.
 
-Hinweis: Falls deine CurseForge-Version keinen direkten Pre-Launch-Command anbietet, starte die Instanz über ein kleines Startskript, das zuerst den obigen Java-Befehl ausführt und dann Minecraft startet.
+## ATLauncher (möglich)
 
-## Modrinth App
-
-1. Neue Fabric-Instanz erstellen:
-   - Minecraft `1.21.8`
-   - Fabric `0.17.3`
-2. Instanzordner öffnen und `packwiz-installer-bootstrap.jar` hineinkopieren.
-3. Unter Instanz-Einstellungen den Start/Pre-Launch-Command setzen:
-   - `java -jar packwiz-installer-bootstrap.jar https://raw.githubusercontent.com/Flumuffel/Residenz-Life/main/pack.toml`
-4. Instanz starten. Updates werden vor jedem Spielstart synchronisiert.
-
-## ATLauncher
-
-1. Neue Fabric-Instanz für Minecraft `1.21.8` erstellen.
+1. Neue Fabric-Instanz für `1.21.8` erstellen.
 2. `packwiz-installer-bootstrap.jar` in den Instanzordner legen.
-3. In den Instanz-Einstellungen einen Pre-Launch-Command definieren:
+3. Pre-Launch-Command in den Instanz-Einstellungen definieren.
+4. Diesen Command verwenden:
    - `java -jar packwiz-installer-bootstrap.jar https://raw.githubusercontent.com/Flumuffel/Residenz-Life/main/pack.toml`
-4. Beim Start der Instanz werden Updates automatisch geladen.
+5. Beim Start lädt der Installer Updates automatisch.
+
+## CurseForge (nur manuell, nicht empfohlen)
+
+CurseForge bietet für dieses Setup keinen verlässlichen Pre-Launch-Command an.  
+Dadurch ist **kein echtes Auto-Update bei jedem Start** möglich.
+
+Wenn du CurseForge trotzdem nutzen willst:
+
+1. Lade `Residenz-Life-<VERSION>-curseforge.zip` aus dem Release herunter.
+2. Importiere die ZIP in CurseForge.
+3. Für Updates musst du neue Export-ZIPs manuell erneut importieren oder die Modliste manuell nachziehen.
+
+Für automatische Updates ist Prism/MultiMC oder Modrinth App klar besser geeignet.
 
 ## Troubleshooting
 
-- **Java nicht gefunden**: Prüfe, ob `java -version` in der Konsole funktioniert.
-- **Datei nicht gefunden**: Stelle sicher, dass `packwiz-installer-bootstrap.jar` im Instanzordner liegt.
-- **Keine Updates / Netzwerkfehler**: Teste die URL im Browser und prüfe Firewall/Proxy.
-- **Berechtigungsprobleme**: Launcher mit normalen Benutzerrechten starten und Schreibrechte im Instanzordner prüfen.
+- **Java nicht gefunden**: Prüfe `java -version` in der Konsole.
+- **Datei fehlt**: Prüfe, ob `packwiz-installer-bootstrap.jar` im Instanzordner liegt.
+- **Update schlägt fehl**: URL testen, Firewall/Proxy prüfen.
+- **Schreibrechte fehlen**: Launcher normal starten und Rechte im Instanzordner prüfen.

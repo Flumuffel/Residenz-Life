@@ -2,11 +2,11 @@ hash-format = "sha256"
 
 [[files]]
 file = ".github/workflows/release.yml"
-hash = "965eedb4196e046dc983f5b6ea9b5c7706f1bdd1e939c06a0553bc234d9c3eea"
+hash = "f47466327a55ece6900ac6ce22feed0d708e9d2d2261fb0c981167aa03baee48"
 
 [[files]]
 file = "README.md"
-hash = "933749a4250d2095d41f6c8652066a003b92111adcfaed6b073b1cb3677f60b2"
+hash = "fa86ec323e7d45933ae6f2e70c023379d2a864da43ab3b94efaf49a7ac2d3199"
 
 [[files]]
 file = "config/MouseTweaks.cfg"
@@ -627,6 +627,10 @@ hash = "60a78fe1b271ce9b53e295235eb5a7cdb3a8692ca583fdaa7f5bc09f9049e2f4"
 [[files]]
 file = "icon.png"
 hash = "802b31301691a0dec165c5b6bf87ba207e1e67331dc65e65c9bcc7a5c292dc20"
+
+[[files]]
+file = "launcher-commands.txt"
+hash = "2e23fe037432ef52a2a1785a0b5113e8be873af67be63258bc3942f15c20d30d"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
