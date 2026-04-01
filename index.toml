@@ -636,11 +636,6 @@ hash = "5b4baed4b3f11ace3309206de34b15dd5d55d09f20efd4783b144cc7a90c0845"
 metafile = true
 
 [[files]]
-file = "mods/anvians-lib.pw.toml"
-hash = "d1e848007a12ef6ddaeaf054607e06c080acae392f8f1c636620363d5f7b31b8"
-metafile = true
-
-[[files]]
 file = "mods/appleskin.pw.toml"
 hash = "c22ebc9646c063a5c53acae5b49a0b54f8b21500ecc79a9c52b142775512b2d6"
 metafile = true
@@ -861,11 +856,6 @@ hash = "19b3595a90e36c9e174bab6262f8bed175a966fc1b6252c2102373f802be248d"
 metafile = true
 
 [[files]]
-file = "mods/inventorytweak.pw.toml"
-hash = "b1b761d020034c4ccde8f5094b5a0d9c85dddab8f997469214f5a71a352d72b4"
-metafile = true
-
-[[files]]
 file = "mods/iris.pw.toml"
 hash = "8d40436970d9adcfe3c0b72c9f0cd1af217948469b091b0f07ca3df187ce2e61"
 metafile = true
@@ -998,11 +988,6 @@ metafile = true
 [[files]]
 file = "mods/open-parties-and-claims.pw.toml"
 hash = "549715755e3253ffc2684b3426370d54de342a6c6433966c115254400a86f0b8"
-metafile = true
-
-[[files]]
-file = "mods/owo-lib.pw.toml"
-hash = "97577102ea2a77ad1262e691485a36106092788ec882b6faf5d4c28ad9675afc"
 metafile = true
 
 [[files]]

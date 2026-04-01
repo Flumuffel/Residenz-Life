@@ -1,12 +1,12 @@
 name = "Schildi: Residenz Life"
 author = "Flumuffel"
-version = "1.2.3"
+version = "1.2.4"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "7f87653c04c8feb302221219c93c6b4b708f65a73eecac437267355fcb669ac3"
+hash = "f6e4df66e65be9637fa7f520918d12a8465254a35c88cbf63dfc4e2878436ebd"
 
 [versions]
 fabric = "0.17.3"
