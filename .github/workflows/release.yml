@@ -71,3 +71,21 @@ jobs:
             packwiz-installer-bootstrap.jar
             Residenz-Life-${{ steps.packmeta.outputs.version }}-curseforge.zip
             Residenz-Life-${{ steps.packmeta.outputs.version }}.mrpack
+
+      - name: Publish versioned release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v${{ steps.packmeta.outputs.version }}
+          name: Residenz-Life v${{ steps.packmeta.outputs.version }}
+          make_latest: false
+          overwrite_files: true
+          body: |
+            Versions-Release aus pack.toml.
+            Enthalten:
+            - packwiz-installer-bootstrap.jar
+            - Residenz-Life-${{ steps.packmeta.outputs.version }}-curseforge.zip
+            - Residenz-Life-${{ steps.packmeta.outputs.version }}.mrpack
+          files: |
+            packwiz-installer-bootstrap.jar
+            Residenz-Life-${{ steps.packmeta.outputs.version }}-curseforge.zip
+            Residenz-Life-${{ steps.packmeta.outputs.version }}.mrpack
